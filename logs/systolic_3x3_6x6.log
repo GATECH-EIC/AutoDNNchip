@@ -1,0 +1,1603 @@
+
+Hardware inter-connection graph (next IPs of each IP) ------------------------------------------------------------
+
+row_reader_0: ['mac_inst_0_0']
+a_buf_0: ['row_reader_0']
+col_reader_0: ['mac_inst_0_0']
+b_buf_0: ['col_reader_0']
+row_reader_1: ['mac_inst_1_0']
+a_buf_1: ['row_reader_1']
+col_reader_1: ['mac_inst_0_1']
+b_buf_1: ['col_reader_1']
+row_reader_2: ['mac_inst_2_0']
+a_buf_2: ['row_reader_2']
+col_reader_2: ['mac_inst_0_2']
+b_buf_2: ['col_reader_2']
+mac_inst_0_0: ['mac_inst_0_0', 'mac_inst_0_1', 'mac_inst_1_0', 'arr_writer_0_0']
+mac_inst_0_1: ['mac_inst_0_1', 'mac_inst_0_2', 'mac_inst_1_1', 'arr_writer_0_1']
+mac_inst_0_2: ['mac_inst_0_2', 'mac_inst_1_2', 'arr_writer_0_2']
+mac_inst_1_0: ['mac_inst_1_0', 'mac_inst_1_1', 'mac_inst_2_0', 'arr_writer_1_0']
+mac_inst_1_1: ['mac_inst_1_1', 'mac_inst_1_2', 'mac_inst_2_1', 'arr_writer_1_1']
+mac_inst_1_2: ['mac_inst_1_2', 'mac_inst_2_2', 'arr_writer_1_2']
+mac_inst_2_0: ['mac_inst_2_0', 'mac_inst_2_1', 'arr_writer_2_0']
+mac_inst_2_1: ['mac_inst_2_1', 'mac_inst_2_2', 'arr_writer_2_1']
+mac_inst_2_2: ['mac_inst_2_2', 'arr_writer_2_2']
+
+Simulation log ------------------------------------------------------------
+
+
+------------------------------------------------------------cycle: 0------------------------------------------------------------
+nodes remaining: 396
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+------------------------------------------------------------cycle: 1------------------------------------------------------------
+nodes remaining: 396
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+------------------------------------------------------------cycle: 2------------------------------------------------------------
+nodes remaining: 390
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.023312482100632345
+
+------------------------------------------------------------cycle: 3------------------------------------------------------------
+nodes remaining: 383
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.00672769022905804
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.8989898293079183
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.07366477347991554
+
+------------------------------------------------------------cycle: 4------------------------------------------------------------
+nodes remaining: 374
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.012585461928021726
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.2594372004040437
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.839639028540415
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.04003365560149168
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.249221554305877
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.3382740460040372
+
+------------------------------------------------------------cycle: 5------------------------------------------------------------
+nodes remaining: 362
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.48532808396780114
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.2423093029675253
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.09648615655655592
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.4911010509574079
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.2431298106593098
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.26051631512580625
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.373328190022602
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.4602850437228183
+
+------------------------------------------------------------cycle: 6------------------------------------------------------------
+nodes remaining: 348
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.45328699798507965
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.0689099668047846
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.5092018246229993
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.10806972966537226
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.5945114902304474
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.513176473205384
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.7375486082137457
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.449787834488083
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.8038684124163779
+
+------------------------------------------------------------cycle: 7------------------------------------------------------------
+nodes remaining: 333
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.1256130425136963
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.0743428765225755
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.7342151273915026
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.3240025525803779
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.8934494565613516
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.6400720843449625
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.5082885353666633
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.8263337157534152
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.9251007566642266
+
+------------------------------------------------------------cycle: 8------------------------------------------------------------
+nodes remaining: 318
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.13743464358064
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.209659751043696
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.2303450295846616
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 1.0896007883324232
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 1.7381322076493944
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.8024332664526346
+
+using: arr_writer_0_0
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.9163917442476932
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.9634846134964097
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.013985992719215797
+
+------------------------------------------------------------cycle: 9------------------------------------------------------------
+nodes remaining: 303
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.3620121656172146
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 2.0487075299644375
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.594560114109719
+
+using: ret_buf_0_0
+generated output edge (ret matrix): 0.9251007566642266
+
+using: arr_writer_0_1
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 1.4907042991120247
+
+using: arr_writer_1_0
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 2.199821881449654
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.9859218977195983
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.002021421766509154
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.5393361870724418
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.015738258529708827
+
+------------------------------------------------------------cycle: 10------------------------------------------------------------
+nodes remaining: 287
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.7237975309825444
+
+using: ret_buf_0_1
+generated output edge (ret matrix): 1.9163917442476932
+
+using: arr_writer_0_2
+
+using: ret_buf_1_0
+generated output edge (ret matrix): 1.9634846134964097
+
+using: arr_writer_1_1
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 2.5024784021899444
+
+using: arr_writer_2_0
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 2.2122360295415424
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.010075781647359632
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.07795127095385879
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.5037295166273666
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.03922447981714099
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.5515242933264586
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.1329829582533991
+
+------------------------------------------------------------cycle: 11------------------------------------------------------------
+nodes remaining: 270
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_0_2
+generated output edge (ret matrix): 1.4907042991120247
+
+using: ret_buf_1_1
+generated output edge (ret matrix): 2.199821881449654
+
+using: arr_writer_1_2
+
+using: ret_buf_2_0
+generated output edge (ret matrix): 1.9859218977195983
+
+using: arr_writer_2_1
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 2.3308792025112126
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.3885482971827352
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.07280497207357245
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.07691439411981005
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.3367218420511034
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.517771044490127
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.23913612221907551
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.6065142228157905
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.5658554168655777
+
+------------------------------------------------------------cycle: 12------------------------------------------------------------
+nodes remaining: 252
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_1_2
+generated output edge (ret matrix): 2.5024784021899444
+
+using: ret_buf_2_1
+generated output edge (ret matrix): 2.2122360295415424
+
+using: arr_writer_2_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.3628965580608384
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.853452711688243
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.3709262805358167
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.08465063742230744
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.4304840943805164
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.63742497634058
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.35475199378363276
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.8777789030757668
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 1.2362227945197413
+
+------------------------------------------------------------cycle: 13------------------------------------------------------------
+nodes remaining: 235
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_2_2
+generated output edge (ret matrix): 2.3308792025112126
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.8984980825099661
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.8570811526729462
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.5749458574757194
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.1587585151207511
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.5029361568967795
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.0876271401462534
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.7716178483094254
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.6124596181235684
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 1.606342391570279
+
+------------------------------------------------------------cycle: 14------------------------------------------------------------
+nodes remaining: 219
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.9063932959488429
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.9035217366109148
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.6951903186630176
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.6936630650772597
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.9597950588823421
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.4044109248102474
+
+using: arr_writer_0_0
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.9143400616688186
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 2.0311781979109704
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.7934643906838892
+
+------------------------------------------------------------cycle: 15------------------------------------------------------------
+nodes remaining: 204
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.9834680236916322
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.4897436655770155
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.8921813231417546
+
+using: ret_buf_0_0
+generated output edge (ret matrix): 1.606342391570279
+
+using: arr_writer_0_1
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.8657220737311343
+
+using: arr_writer_1_0
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 1.1212575779118323
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.9645975539580083
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.228983881049916
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.1908458290144098
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.9954855111888743
+
+------------------------------------------------------------cycle: 16------------------------------------------------------------
+nodes remaining: 188
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.2362385095738233
+
+using: ret_buf_0_1
+generated output edge (ret matrix): 0.9143400616688186
+
+using: arr_writer_0_2
+
+using: ret_buf_1_0
+generated output edge (ret matrix): 2.0311781979109704
+
+using: arr_writer_1_1
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.68439508181462
+
+using: arr_writer_2_0
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.108195487869674
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.428359187026343
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.05507571495709156
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.03260998660470264
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.3626125255411107
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.47653842407108593
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 1.655690810885662
+
+------------------------------------------------------------cycle: 17------------------------------------------------------------
+nodes remaining: 171
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_0_2
+generated output edge (ret matrix): 0.8657220737311343
+
+using: ret_buf_1_1
+generated output edge (ret matrix): 1.1212575779118323
+
+using: arr_writer_1_2
+
+using: ret_buf_2_0
+generated output edge (ret matrix): 1.9645975539580083
+
+using: arr_writer_2_1
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.496654755674833
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.1030299092483785
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.009410833531287542
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.7649816499908947
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.24404959116947178
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.13859292626674913
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.9127210645225835
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.7657559092460009
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 1.6888308700247605
+
+------------------------------------------------------------cycle: 18------------------------------------------------------------
+nodes remaining: 153
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_1_2
+generated output edge (ret matrix): 1.68439508181462
+
+using: ret_buf_2_1
+generated output edge (ret matrix): 1.108195487869674
+
+using: arr_writer_2_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.017604806863343446
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.579071942667055
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.07951417980929151
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.793882890990182
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.4850367633271908
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.046659508415148
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.0422903549945077
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.8678171934008964
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 2.0048954610414293
+
+------------------------------------------------------------cycle: 19------------------------------------------------------------
+nodes remaining: 136
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_2_2
+generated output edge (ret matrix): 1.496654755674833
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.19420138296431202
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.591732768389125
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.8361503065307471
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.852533559005941
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.8840706973675092
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.1756933606796172
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.751299061621029
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.9893305397178811
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 2.2272028598471234
+
+------------------------------------------------------------cycle: 20------------------------------------------------------------
+nodes remaining: 120
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.2339530346795031
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.7723589546341765
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.340640193365065
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 1.5568123900394442
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 1.1566542861616185
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.3771075200035157
+
+using: arr_writer_0_0
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 2.4996501998710707
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.1682993988219872
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.47602769808714873
+
+------------------------------------------------------------cycle: 21------------------------------------------------------------
+nodes remaining: 105
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.46231477658808284
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.0431241081232683
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.7924604752231303
+
+using: ret_buf_0_0
+generated output edge (ret matrix): 2.2272028598471234
+
+using: arr_writer_0_1
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 2.2923279711862397
+
+using: arr_writer_1_0
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 1.75911533847653
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.5883350779730045
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.06880117626920691
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.11449524609032677
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.4830580574364757
+
+------------------------------------------------------------cycle: 22------------------------------------------------------------
+nodes remaining: 89
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.9111209153141703
+
+using: ret_buf_0_1
+generated output edge (ret matrix): 2.4996501998710707
+
+using: arr_writer_0_2
+
+using: ret_buf_1_0
+generated output edge (ret matrix): 1.1682993988219872
+
+using: arr_writer_1_1
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 1.6352518785812795
+
+using: arr_writer_2_0
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 2.5035136578228046
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.34293962826331853
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.01654821271934609
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.019563898569801997
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.2180655546663524
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.12443738284152162
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.7755858716757994
+
+------------------------------------------------------------cycle: 23------------------------------------------------------------
+nodes remaining: 72
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: a_buf_0
+
+using: b_buf_0
+
+using: a_buf_1
+
+using: b_buf_1
+
+using: a_buf_2
+
+using: b_buf_2
+
+using: ret_buf_0_2
+generated output edge (ret matrix): 2.2923279711862397
+
+using: ret_buf_1_1
+generated output edge (ret matrix): 1.75911533847653
+
+using: arr_writer_1_2
+
+using: ret_buf_2_0
+generated output edge (ret matrix): 1.5883350779730045
+
+using: arr_writer_2_1
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 1.6099782672907423
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.0824846060216971
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.002827606963675903
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.6111063991252792
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.22763370470754574
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.023252117647390148
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.7168490044141869
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.2525856403863611
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 0.8931606735076703
+
+------------------------------------------------------------cycle: 24------------------------------------------------------------
+nodes remaining: 54
+
+using: row_reader_0
+
+using: col_reader_0
+
+using: row_reader_1
+
+using: col_reader_1
+
+using: row_reader_2
+
+using: col_reader_2
+
+using: ret_buf_1_2
+generated output edge (ret matrix): 1.6352518785812795
+
+using: ret_buf_2_1
+generated output edge (ret matrix): 2.5035136578228046
+
+using: arr_writer_2_2
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.014094213697793848
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.4617185221786567
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.0811336651115277
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.6304084771640862
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.4461367901102077
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.42560382942801706
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 0.748252049161833
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.6146802042147269
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 1.5098360145022869
+
+------------------------------------------------------------cycle: 25------------------------------------------------------------
+nodes remaining: 37
+
+using: ret_buf_2_2
+generated output edge (ret matrix): 1.6099782672907423
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.15477803242222116
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.4701742229608189
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.7671756927243323
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 0.650537313871578
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.5428485992191157
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 0.8833920773584214
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.1317296788285407
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 0.8517655545046353
+
+using: mac_inst_0_0
+generated output edge (ret matrix): 2.1885354604117206
+
+------------------------------------------------------------cycle: 26------------------------------------------------------------
+nodes remaining: 27
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.18132670151214073
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.5321649066312373
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 0.8894463205350622
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 1.142599512510031
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.690279381859521
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.2763723380787966
+
+using: arr_writer_0_0
+
+using: mac_inst_0_1
+generated output edge (ret matrix): 1.39344369748063
+
+using: mac_inst_1_0
+generated output edge (ret matrix): 1.3981534217621112
+
+------------------------------------------------------------cycle: 27------------------------------------------------------------
+nodes remaining: 19
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.25970016883362285
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.7213418218950479
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.1338198650387168
+
+using: ret_buf_0_0
+generated output edge (ret matrix): 2.1885354604117206
+
+using: arr_writer_0_1
+
+using: mac_inst_0_2
+generated output edge (ret matrix): 1.4581092957468422
+
+using: arr_writer_1_0
+
+using: mac_inst_1_1
+generated output edge (ret matrix): 0.9009725912684173
+
+using: mac_inst_2_0
+generated output edge (ret matrix): 1.9212452812415997
+
+------------------------------------------------------------cycle: 28------------------------------------------------------------
+nodes remaining: 12
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.5732699165710604
+
+using: ret_buf_0_1
+generated output edge (ret matrix): 1.39344369748063
+
+using: arr_writer_0_2
+
+using: ret_buf_1_0
+generated output edge (ret matrix): 1.3981534217621112
+
+using: arr_writer_1_1
+
+using: mac_inst_1_2
+generated output edge (ret matrix): 0.9753433812018073
+
+using: arr_writer_2_0
+
+using: mac_inst_2_1
+generated output edge (ret matrix): 1.3824900098168498
+
+------------------------------------------------------------cycle: 29------------------------------------------------------------
+nodes remaining: 7
+
+using: ret_buf_0_2
+generated output edge (ret matrix): 1.4581092957468422
+
+using: ret_buf_1_1
+generated output edge (ret matrix): 0.9009725912684173
+
+using: arr_writer_1_2
+
+using: ret_buf_2_0
+generated output edge (ret matrix): 1.9212452812415997
+
+using: arr_writer_2_1
+
+using: mac_inst_2_2
+generated output edge (ret matrix): 0.8730546353281918
+
+------------------------------------------------------------cycle: 30------------------------------------------------------------
+nodes remaining: 3
+
+using: ret_buf_1_2
+generated output edge (ret matrix): 0.9753433812018073
+
+using: ret_buf_2_1
+generated output edge (ret matrix): 1.3824900098168498
+
+using: arr_writer_2_2
+
+------------------------------------------------------------cycle: 31------------------------------------------------------------
+nodes remaining: 1
+
+using: ret_buf_2_2
+generated output edge (ret matrix): 0.8730546353281918
+
+------------------------------------------------------------cycle: 32------------------------------------------------------------
+nodes remaining: 0
+
+GEMM input
+[0.02531777 0.08961691 0.27259143 0.86297454 0.79989342 0.51430962
+ 0.97631908 0.62334176 0.12785042 0.54079327 0.87663316 0.58184164
+ 0.91186304 0.71813212 0.27819284 0.89752304 0.37799164 0.77842236
+ 0.86171656 0.3595568  0.68012094 0.23439713 0.7358272  0.94310503
+ 0.20726199 0.50847514 0.29794197 0.72187173 0.28289415 0.75924792
+ 0.03541503 0.18862823 0.93545916 0.91264665 0.46891053 0.8961005 ]
+[0.92079511 0.26572993 0.49709987 0.55241795 0.079842   0.39797266
+ 0.56186149 0.37164821 0.93621497 0.01955285 0.41513434 0.74582588
+ 0.9707175  0.80883929 0.04249427 0.43011147 0.73337464 0.02838036
+ 0.14138424 0.55277679 0.25021923 0.50160513 0.13397368 0.08587493
+ 0.42953644 0.96355328 0.95712531 0.83807087 0.52115175 0.66871978
+ 0.2357186  0.79349714 0.77988724 0.71964354 0.27750252 0.33454363]
+
+generated matrix output
+[[0.92510076 1.91639174 1.4907043  1.60634239 0.91434006 0.86572207]
+ [1.96348461 2.19982188 2.5024784  2.0311782  1.12125758 1.68439508]
+ [1.9859219  2.21223603 2.3308792  1.96459755 1.10819549 1.49665476]
+ [2.22720286 2.4996502  2.29232797 2.18853546 1.3934437  1.4581093 ]
+ [1.1682994  1.75911534 1.63525188 1.39815342 0.90097259 0.97534338]
+ [1.58833508 2.50351366 1.60997827 1.92124528 1.38249001 0.87305464]]
+
+expected matrix output
+[[0.92510076 1.91639174 1.4907043  1.60634239 0.91434006 0.86572207]
+ [1.96348461 2.19982188 2.5024784  2.0311782  1.12125758 1.68439508]
+ [1.9859219  2.21223603 2.3308792  1.96459755 1.10819549 1.49665476]
+ [2.22720286 2.4996502  2.29232797 2.18853546 1.3934437  1.4581093 ]
+ [1.1682994  1.75911534 1.63525188 1.39815342 0.90097259 0.97534338]
+ [1.58833508 2.50351366 1.60997827 1.92124528 1.38249001 0.87305464]]
+
+Post simulation log ------------------------------------------------------------
+
+busy cycles of mac_inst_0_0: 24
+busy cycles of arr_writer_0_0: 4
+busy cycles of ret_buf_0_0: 4
+busy cycles of mac_inst_0_1: 24
+busy cycles of arr_writer_0_1: 4
+busy cycles of ret_buf_0_1: 4
+busy cycles of mac_inst_0_2: 24
+busy cycles of arr_writer_0_2: 4
+busy cycles of ret_buf_0_2: 4
+busy cycles of mac_inst_1_0: 24
+busy cycles of arr_writer_1_0: 4
+busy cycles of ret_buf_1_0: 4
+busy cycles of mac_inst_1_1: 24
+busy cycles of arr_writer_1_1: 4
+busy cycles of ret_buf_1_1: 4
+busy cycles of mac_inst_1_2: 24
+busy cycles of arr_writer_1_2: 4
+busy cycles of ret_buf_1_2: 4
+busy cycles of mac_inst_2_0: 24
+busy cycles of arr_writer_2_0: 4
+busy cycles of ret_buf_2_0: 4
+busy cycles of mac_inst_2_1: 24
+busy cycles of arr_writer_2_1: 4
+busy cycles of ret_buf_2_1: 4
+busy cycles of mac_inst_2_2: 24
+busy cycles of arr_writer_2_2: 4
+busy cycles of ret_buf_2_2: 4
+busy cycles of a_buf_0: 24
+busy cycles of row_reader_0: 24
+busy cycles of b_buf_0: 24
+busy cycles of col_reader_0: 24
+busy cycles of a_buf_1: 24
+busy cycles of row_reader_1: 24
+busy cycles of b_buf_1: 24
+busy cycles of col_reader_1: 24
+busy cycles of a_buf_2: 24
+busy cycles of row_reader_2: 24
+busy cycles of b_buf_2: 24
+busy cycles of col_reader_2: 24
+Latency(cycles): 32
