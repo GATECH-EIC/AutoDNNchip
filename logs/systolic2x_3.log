@@ -1,0 +1,3921 @@
+
+Workload visualization graph------------------------------------------------------------
+
+['row_rd_0_t0_ain', 'col_rd_0_t0_bin', 'row_rd_1_t0_ain', 'col_rd_1_t0_bin', 'row_rd_2_t0_ain', 'col_rd_2_t0_bin', 'row_rd_0_t1_ain', 'col_rd_0_t1_bin', 'row_rd_1_t1_ain', 'col_rd_1_t1_bin', 'row_rd_2_t1_ain', 'col_rd_2_t1_bin', 'row_rd_0_t2_ain', 'col_rd_0_t2_bin', 'row_rd_1_t2_ain', 'col_rd_1_t2_bin', 'row_rd_2_t2_ain', 'col_rd_2_t2_bin', 'row_rd_0_t3_ain', 'col_rd_0_t3_bin', 'row_rd_1_t3_ain', 'col_rd_1_t3_bin', 'row_rd_2_t3_ain', 'col_rd_2_t3_bin', 'row_rd_0_t4_ain', 'col_rd_0_t4_bin', 'row_rd_1_t4_ain', 'col_rd_1_t4_bin', 'row_rd_2_t4_ain', 'col_rd_2_t4_bin', 'row_rd_0_t5_ain', 'col_rd_0_t5_bin', 'row_rd_1_t5_ain', 'col_rd_1_t5_bin', 'row_rd_2_t5_ain', 'col_rd_2_t5_bin', 'row_rd_0_t6_ain', 'col_rd_0_t6_bin', 'row_rd_1_t6_ain', 'col_rd_1_t6_bin', 'row_rd_2_t6_ain', 'col_rd_2_t6_bin', 'row_rd_0_t7_ain', 'col_rd_0_t7_bin', 'row_rd_1_t7_ain', 'col_rd_1_t7_bin', 'row_rd_2_t7_ain', 'col_rd_2_t7_bin', 'row_rd_0_t8_ain', 'col_rd_0_t8_bin', 'row_rd_1_t8_ain', 'col_rd_1_t8_bin', 'row_rd_2_t8_ain', 'col_rd_2_t8_bin', 'row_rd_0_t9_ain', 'col_rd_0_t9_bin', 'row_rd_1_t9_ain', 'col_rd_1_t9_bin', 'row_rd_2_t9_ain', 'col_rd_2_t9_bin', 'row_rd_0_t10_ain', 'col_rd_0_t10_bin', 'row_rd_1_t10_ain', 'col_rd_1_t10_bin', 'row_rd_2_t10_ain', 'col_rd_2_t10_bin', 'row_rd_0_t11_ain', 'col_rd_0_t11_bin', 'row_rd_1_t11_ain', 'col_rd_1_t11_bin', 'row_rd_2_t11_ain', 'col_rd_2_t11_bin', 'row_rd_0_t12_ain', 'col_rd_0_t12_bin', 'row_rd_1_t12_ain', 'col_rd_1_t12_bin', 'row_rd_2_t12_ain', 'col_rd_2_t12_bin', 'row_rd_0_t13_ain', 'col_rd_0_t13_bin', 'row_rd_1_t13_ain', 'col_rd_1_t13_bin', 'row_rd_2_t13_ain', 'col_rd_2_t13_bin', 'row_rd_0_t14_ain', 'col_rd_0_t14_bin', 'row_rd_1_t14_ain', 'col_rd_1_t14_bin', 'row_rd_2_t14_ain', 'col_rd_2_t14_bin', 'row_rd_0_t15_ain', 'col_rd_0_t15_bin', 'row_rd_1_t15_ain', 'col_rd_1_t15_bin', 'row_rd_2_t15_ain', 'col_rd_2_t15_bin', 'row_rd_0_t16_ain', 'col_rd_0_t16_bin', 'row_rd_1_t16_ain', 'col_rd_1_t16_bin', 'row_rd_2_t16_ain', 'col_rd_2_t16_bin', 'row_rd_0_t17_ain', 'col_rd_0_t17_bin', 'row_rd_1_t17_ain', 'col_rd_1_t17_bin', 'row_rd_2_t17_ain', 'col_rd_2_t17_bin', 'row_rd_0_t18_ain', 'col_rd_0_t18_bin', 'row_rd_1_t18_ain', 'col_rd_1_t18_bin', 'row_rd_2_t18_ain', 'col_rd_2_t18_bin', 'row_rd_0_t19_ain', 'col_rd_0_t19_bin', 'row_rd_1_t19_ain', 'col_rd_1_t19_bin', 'row_rd_2_t19_ain', 'col_rd_2_t19_bin', 'row_rd_0_t20_ain', 'col_rd_0_t20_bin', 'row_rd_1_t20_ain', 'col_rd_1_t20_bin', 'row_rd_2_t20_ain', 'col_rd_2_t20_bin', 'row_rd_0_t21_ain', 'col_rd_0_t21_bin', 'row_rd_1_t21_ain', 'col_rd_1_t21_bin', 'row_rd_2_t21_ain', 'col_rd_2_t21_bin', 'row_rd_0_t22_ain', 'col_rd_0_t22_bin', 'row_rd_1_t22_ain', 'col_rd_1_t22_bin', 'row_rd_2_t22_ain', 'col_rd_2_t22_bin', 'row_rd_0_t23_ain', 'col_rd_0_t23_bin', 'row_rd_1_t23_ain', 'col_rd_1_t23_bin', 'row_rd_2_t23_ain', 'col_rd_2_t23_bin', 'mac_0_0_t0_retin', 'mac_0_1_t0_retin', 'mac_0_2_t0_retin', 'mac_1_0_t0_retin', 'mac_1_1_t0_retin', 'mac_1_2_t0_retin', 'mac_2_0_t0_retin', 'mac_2_1_t0_retin', 'mac_2_2_t0_retin', 'mac_0_0_t6_retin', 'mac_0_1_t6_retin', 'mac_0_2_t6_retin', 'mac_1_0_t6_retin', 'mac_1_1_t6_retin', 'mac_1_2_t6_retin', 'mac_2_0_t6_retin', 'mac_2_1_t6_retin', 'mac_2_2_t6_retin', 'mac_0_0_t12_retin', 'mac_0_1_t12_retin', 'mac_0_2_t12_retin', 'mac_1_0_t12_retin', 'mac_1_1_t12_retin', 'mac_1_2_t12_retin', 'mac_2_0_t12_retin', 'mac_2_1_t12_retin', 'mac_2_2_t12_retin', 'mac_0_0_t18_retin', 'mac_0_1_t18_retin', 'mac_0_2_t18_retin', 'mac_1_0_t18_retin', 'mac_1_1_t18_retin', 'mac_1_2_t18_retin', 'mac_2_0_t18_retin', 'mac_2_1_t18_retin', 'mac_2_2_t18_retin']
+['arr_wt_0_0_t5_retout', 'arr_wt_0_1_t5_retout', 'arr_wt_0_2_t5_retout', 'arr_wt_1_0_t5_retout', 'arr_wt_1_1_t5_retout', 'arr_wt_1_2_t5_retout', 'arr_wt_2_0_t5_retout', 'arr_wt_2_1_t5_retout', 'arr_wt_2_2_t5_retout', 'arr_wt_0_0_t11_retout', 'arr_wt_0_1_t11_retout', 'arr_wt_0_2_t11_retout', 'arr_wt_1_0_t11_retout', 'arr_wt_1_1_t11_retout', 'arr_wt_1_2_t11_retout', 'arr_wt_2_0_t11_retout', 'arr_wt_2_1_t11_retout', 'arr_wt_2_2_t11_retout', 'arr_wt_0_0_t17_retout', 'arr_wt_0_1_t17_retout', 'arr_wt_0_2_t17_retout', 'arr_wt_1_0_t17_retout', 'arr_wt_1_1_t17_retout', 'arr_wt_1_2_t17_retout', 'arr_wt_2_0_t17_retout', 'arr_wt_2_1_t17_retout', 'arr_wt_2_2_t17_retout', 'arr_wt_0_0_t23_retout', 'arr_wt_0_1_t23_retout', 'arr_wt_0_2_t23_retout', 'arr_wt_1_0_t23_retout', 'arr_wt_1_1_t23_retout', 'arr_wt_1_2_t23_retout', 'arr_wt_2_0_t23_retout', 'arr_wt_2_1_t23_retout', 'arr_wt_2_2_t23_retout']
+
+(None, 'row_rd_0_t0'): row_rd_0_t0_ain
+('row_rd_0_t0', 'mac_0_0_t0'): row_rd_0_t0_aout
+(None, 'col_rd_0_t0'): col_rd_0_t0_bin
+('col_rd_0_t0', 'mac_0_0_t0'): col_rd_0_t0_bout
+(None, 'row_rd_1_t0'): row_rd_1_t0_ain
+('row_rd_1_t0', 'mac_1_0_t0'): row_rd_1_t0_aout
+(None, 'col_rd_1_t0'): col_rd_1_t0_bin
+('col_rd_1_t0', 'mac_0_1_t0'): col_rd_1_t0_bout
+(None, 'row_rd_2_t0'): row_rd_2_t0_ain
+('row_rd_2_t0', 'mac_2_0_t0'): row_rd_2_t0_aout
+(None, 'col_rd_2_t0'): col_rd_2_t0_bin
+('col_rd_2_t0', 'mac_0_2_t0'): col_rd_2_t0_bout
+(None, 'row_rd_0_t1'): row_rd_0_t1_ain
+('row_rd_0_t1', 'mac_0_0_t1'): row_rd_0_t1_aout
+(None, 'col_rd_0_t1'): col_rd_0_t1_bin
+('col_rd_0_t1', 'mac_0_0_t1'): col_rd_0_t1_bout
+(None, 'row_rd_1_t1'): row_rd_1_t1_ain
+('row_rd_1_t1', 'mac_1_0_t1'): row_rd_1_t1_aout
+(None, 'col_rd_1_t1'): col_rd_1_t1_bin
+('col_rd_1_t1', 'mac_0_1_t1'): col_rd_1_t1_bout
+(None, 'row_rd_2_t1'): row_rd_2_t1_ain
+('row_rd_2_t1', 'mac_2_0_t1'): row_rd_2_t1_aout
+(None, 'col_rd_2_t1'): col_rd_2_t1_bin
+('col_rd_2_t1', 'mac_0_2_t1'): col_rd_2_t1_bout
+(None, 'row_rd_0_t2'): row_rd_0_t2_ain
+('row_rd_0_t2', 'mac_0_0_t2'): row_rd_0_t2_aout
+(None, 'col_rd_0_t2'): col_rd_0_t2_bin
+('col_rd_0_t2', 'mac_0_0_t2'): col_rd_0_t2_bout
+(None, 'row_rd_1_t2'): row_rd_1_t2_ain
+('row_rd_1_t2', 'mac_1_0_t2'): row_rd_1_t2_aout
+(None, 'col_rd_1_t2'): col_rd_1_t2_bin
+('col_rd_1_t2', 'mac_0_1_t2'): col_rd_1_t2_bout
+(None, 'row_rd_2_t2'): row_rd_2_t2_ain
+('row_rd_2_t2', 'mac_2_0_t2'): row_rd_2_t2_aout
+(None, 'col_rd_2_t2'): col_rd_2_t2_bin
+('col_rd_2_t2', 'mac_0_2_t2'): col_rd_2_t2_bout
+(None, 'row_rd_0_t3'): row_rd_0_t3_ain
+('row_rd_0_t3', 'mac_0_0_t3'): row_rd_0_t3_aout
+(None, 'col_rd_0_t3'): col_rd_0_t3_bin
+('col_rd_0_t3', 'mac_0_0_t3'): col_rd_0_t3_bout
+(None, 'row_rd_1_t3'): row_rd_1_t3_ain
+('row_rd_1_t3', 'mac_1_0_t3'): row_rd_1_t3_aout
+(None, 'col_rd_1_t3'): col_rd_1_t3_bin
+('col_rd_1_t3', 'mac_0_1_t3'): col_rd_1_t3_bout
+(None, 'row_rd_2_t3'): row_rd_2_t3_ain
+('row_rd_2_t3', 'mac_2_0_t3'): row_rd_2_t3_aout
+(None, 'col_rd_2_t3'): col_rd_2_t3_bin
+('col_rd_2_t3', 'mac_0_2_t3'): col_rd_2_t3_bout
+(None, 'row_rd_0_t4'): row_rd_0_t4_ain
+('row_rd_0_t4', 'mac_0_0_t4'): row_rd_0_t4_aout
+(None, 'col_rd_0_t4'): col_rd_0_t4_bin
+('col_rd_0_t4', 'mac_0_0_t4'): col_rd_0_t4_bout
+(None, 'row_rd_1_t4'): row_rd_1_t4_ain
+('row_rd_1_t4', 'mac_1_0_t4'): row_rd_1_t4_aout
+(None, 'col_rd_1_t4'): col_rd_1_t4_bin
+('col_rd_1_t4', 'mac_0_1_t4'): col_rd_1_t4_bout
+(None, 'row_rd_2_t4'): row_rd_2_t4_ain
+('row_rd_2_t4', 'mac_2_0_t4'): row_rd_2_t4_aout
+(None, 'col_rd_2_t4'): col_rd_2_t4_bin
+('col_rd_2_t4', 'mac_0_2_t4'): col_rd_2_t4_bout
+(None, 'row_rd_0_t5'): row_rd_0_t5_ain
+('row_rd_0_t5', 'mac_0_0_t5'): row_rd_0_t5_aout
+(None, 'col_rd_0_t5'): col_rd_0_t5_bin
+('col_rd_0_t5', 'mac_0_0_t5'): col_rd_0_t5_bout
+(None, 'row_rd_1_t5'): row_rd_1_t5_ain
+('row_rd_1_t5', 'mac_1_0_t5'): row_rd_1_t5_aout
+(None, 'col_rd_1_t5'): col_rd_1_t5_bin
+('col_rd_1_t5', 'mac_0_1_t5'): col_rd_1_t5_bout
+(None, 'row_rd_2_t5'): row_rd_2_t5_ain
+('row_rd_2_t5', 'mac_2_0_t5'): row_rd_2_t5_aout
+(None, 'col_rd_2_t5'): col_rd_2_t5_bin
+('col_rd_2_t5', 'mac_0_2_t5'): col_rd_2_t5_bout
+(None, 'row_rd_0_t6'): row_rd_0_t6_ain
+('row_rd_0_t6', 'mac_0_0_t6'): row_rd_0_t6_aout
+(None, 'col_rd_0_t6'): col_rd_0_t6_bin
+('col_rd_0_t6', 'mac_0_0_t6'): col_rd_0_t6_bout
+(None, 'row_rd_1_t6'): row_rd_1_t6_ain
+('row_rd_1_t6', 'mac_1_0_t6'): row_rd_1_t6_aout
+(None, 'col_rd_1_t6'): col_rd_1_t6_bin
+('col_rd_1_t6', 'mac_0_1_t6'): col_rd_1_t6_bout
+(None, 'row_rd_2_t6'): row_rd_2_t6_ain
+('row_rd_2_t6', 'mac_2_0_t6'): row_rd_2_t6_aout
+(None, 'col_rd_2_t6'): col_rd_2_t6_bin
+('col_rd_2_t6', 'mac_0_2_t6'): col_rd_2_t6_bout
+(None, 'row_rd_0_t7'): row_rd_0_t7_ain
+('row_rd_0_t7', 'mac_0_0_t7'): row_rd_0_t7_aout
+(None, 'col_rd_0_t7'): col_rd_0_t7_bin
+('col_rd_0_t7', 'mac_0_0_t7'): col_rd_0_t7_bout
+(None, 'row_rd_1_t7'): row_rd_1_t7_ain
+('row_rd_1_t7', 'mac_1_0_t7'): row_rd_1_t7_aout
+(None, 'col_rd_1_t7'): col_rd_1_t7_bin
+('col_rd_1_t7', 'mac_0_1_t7'): col_rd_1_t7_bout
+(None, 'row_rd_2_t7'): row_rd_2_t7_ain
+('row_rd_2_t7', 'mac_2_0_t7'): row_rd_2_t7_aout
+(None, 'col_rd_2_t7'): col_rd_2_t7_bin
+('col_rd_2_t7', 'mac_0_2_t7'): col_rd_2_t7_bout
+(None, 'row_rd_0_t8'): row_rd_0_t8_ain
+('row_rd_0_t8', 'mac_0_0_t8'): row_rd_0_t8_aout
+(None, 'col_rd_0_t8'): col_rd_0_t8_bin
+('col_rd_0_t8', 'mac_0_0_t8'): col_rd_0_t8_bout
+(None, 'row_rd_1_t8'): row_rd_1_t8_ain
+('row_rd_1_t8', 'mac_1_0_t8'): row_rd_1_t8_aout
+(None, 'col_rd_1_t8'): col_rd_1_t8_bin
+('col_rd_1_t8', 'mac_0_1_t8'): col_rd_1_t8_bout
+(None, 'row_rd_2_t8'): row_rd_2_t8_ain
+('row_rd_2_t8', 'mac_2_0_t8'): row_rd_2_t8_aout
+(None, 'col_rd_2_t8'): col_rd_2_t8_bin
+('col_rd_2_t8', 'mac_0_2_t8'): col_rd_2_t8_bout
+(None, 'row_rd_0_t9'): row_rd_0_t9_ain
+('row_rd_0_t9', 'mac_0_0_t9'): row_rd_0_t9_aout
+(None, 'col_rd_0_t9'): col_rd_0_t9_bin
+('col_rd_0_t9', 'mac_0_0_t9'): col_rd_0_t9_bout
+(None, 'row_rd_1_t9'): row_rd_1_t9_ain
+('row_rd_1_t9', 'mac_1_0_t9'): row_rd_1_t9_aout
+(None, 'col_rd_1_t9'): col_rd_1_t9_bin
+('col_rd_1_t9', 'mac_0_1_t9'): col_rd_1_t9_bout
+(None, 'row_rd_2_t9'): row_rd_2_t9_ain
+('row_rd_2_t9', 'mac_2_0_t9'): row_rd_2_t9_aout
+(None, 'col_rd_2_t9'): col_rd_2_t9_bin
+('col_rd_2_t9', 'mac_0_2_t9'): col_rd_2_t9_bout
+(None, 'row_rd_0_t10'): row_rd_0_t10_ain
+('row_rd_0_t10', 'mac_0_0_t10'): row_rd_0_t10_aout
+(None, 'col_rd_0_t10'): col_rd_0_t10_bin
+('col_rd_0_t10', 'mac_0_0_t10'): col_rd_0_t10_bout
+(None, 'row_rd_1_t10'): row_rd_1_t10_ain
+('row_rd_1_t10', 'mac_1_0_t10'): row_rd_1_t10_aout
+(None, 'col_rd_1_t10'): col_rd_1_t10_bin
+('col_rd_1_t10', 'mac_0_1_t10'): col_rd_1_t10_bout
+(None, 'row_rd_2_t10'): row_rd_2_t10_ain
+('row_rd_2_t10', 'mac_2_0_t10'): row_rd_2_t10_aout
+(None, 'col_rd_2_t10'): col_rd_2_t10_bin
+('col_rd_2_t10', 'mac_0_2_t10'): col_rd_2_t10_bout
+(None, 'row_rd_0_t11'): row_rd_0_t11_ain
+('row_rd_0_t11', 'mac_0_0_t11'): row_rd_0_t11_aout
+(None, 'col_rd_0_t11'): col_rd_0_t11_bin
+('col_rd_0_t11', 'mac_0_0_t11'): col_rd_0_t11_bout
+(None, 'row_rd_1_t11'): row_rd_1_t11_ain
+('row_rd_1_t11', 'mac_1_0_t11'): row_rd_1_t11_aout
+(None, 'col_rd_1_t11'): col_rd_1_t11_bin
+('col_rd_1_t11', 'mac_0_1_t11'): col_rd_1_t11_bout
+(None, 'row_rd_2_t11'): row_rd_2_t11_ain
+('row_rd_2_t11', 'mac_2_0_t11'): row_rd_2_t11_aout
+(None, 'col_rd_2_t11'): col_rd_2_t11_bin
+('col_rd_2_t11', 'mac_0_2_t11'): col_rd_2_t11_bout
+(None, 'row_rd_0_t12'): row_rd_0_t12_ain
+('row_rd_0_t12', 'mac_0_0_t12'): row_rd_0_t12_aout
+(None, 'col_rd_0_t12'): col_rd_0_t12_bin
+('col_rd_0_t12', 'mac_0_0_t12'): col_rd_0_t12_bout
+(None, 'row_rd_1_t12'): row_rd_1_t12_ain
+('row_rd_1_t12', 'mac_1_0_t12'): row_rd_1_t12_aout
+(None, 'col_rd_1_t12'): col_rd_1_t12_bin
+('col_rd_1_t12', 'mac_0_1_t12'): col_rd_1_t12_bout
+(None, 'row_rd_2_t12'): row_rd_2_t12_ain
+('row_rd_2_t12', 'mac_2_0_t12'): row_rd_2_t12_aout
+(None, 'col_rd_2_t12'): col_rd_2_t12_bin
+('col_rd_2_t12', 'mac_0_2_t12'): col_rd_2_t12_bout
+(None, 'row_rd_0_t13'): row_rd_0_t13_ain
+('row_rd_0_t13', 'mac_0_0_t13'): row_rd_0_t13_aout
+(None, 'col_rd_0_t13'): col_rd_0_t13_bin
+('col_rd_0_t13', 'mac_0_0_t13'): col_rd_0_t13_bout
+(None, 'row_rd_1_t13'): row_rd_1_t13_ain
+('row_rd_1_t13', 'mac_1_0_t13'): row_rd_1_t13_aout
+(None, 'col_rd_1_t13'): col_rd_1_t13_bin
+('col_rd_1_t13', 'mac_0_1_t13'): col_rd_1_t13_bout
+(None, 'row_rd_2_t13'): row_rd_2_t13_ain
+('row_rd_2_t13', 'mac_2_0_t13'): row_rd_2_t13_aout
+(None, 'col_rd_2_t13'): col_rd_2_t13_bin
+('col_rd_2_t13', 'mac_0_2_t13'): col_rd_2_t13_bout
+(None, 'row_rd_0_t14'): row_rd_0_t14_ain
+('row_rd_0_t14', 'mac_0_0_t14'): row_rd_0_t14_aout
+(None, 'col_rd_0_t14'): col_rd_0_t14_bin
+('col_rd_0_t14', 'mac_0_0_t14'): col_rd_0_t14_bout
+(None, 'row_rd_1_t14'): row_rd_1_t14_ain
+('row_rd_1_t14', 'mac_1_0_t14'): row_rd_1_t14_aout
+(None, 'col_rd_1_t14'): col_rd_1_t14_bin
+('col_rd_1_t14', 'mac_0_1_t14'): col_rd_1_t14_bout
+(None, 'row_rd_2_t14'): row_rd_2_t14_ain
+('row_rd_2_t14', 'mac_2_0_t14'): row_rd_2_t14_aout
+(None, 'col_rd_2_t14'): col_rd_2_t14_bin
+('col_rd_2_t14', 'mac_0_2_t14'): col_rd_2_t14_bout
+(None, 'row_rd_0_t15'): row_rd_0_t15_ain
+('row_rd_0_t15', 'mac_0_0_t15'): row_rd_0_t15_aout
+(None, 'col_rd_0_t15'): col_rd_0_t15_bin
+('col_rd_0_t15', 'mac_0_0_t15'): col_rd_0_t15_bout
+(None, 'row_rd_1_t15'): row_rd_1_t15_ain
+('row_rd_1_t15', 'mac_1_0_t15'): row_rd_1_t15_aout
+(None, 'col_rd_1_t15'): col_rd_1_t15_bin
+('col_rd_1_t15', 'mac_0_1_t15'): col_rd_1_t15_bout
+(None, 'row_rd_2_t15'): row_rd_2_t15_ain
+('row_rd_2_t15', 'mac_2_0_t15'): row_rd_2_t15_aout
+(None, 'col_rd_2_t15'): col_rd_2_t15_bin
+('col_rd_2_t15', 'mac_0_2_t15'): col_rd_2_t15_bout
+(None, 'row_rd_0_t16'): row_rd_0_t16_ain
+('row_rd_0_t16', 'mac_0_0_t16'): row_rd_0_t16_aout
+(None, 'col_rd_0_t16'): col_rd_0_t16_bin
+('col_rd_0_t16', 'mac_0_0_t16'): col_rd_0_t16_bout
+(None, 'row_rd_1_t16'): row_rd_1_t16_ain
+('row_rd_1_t16', 'mac_1_0_t16'): row_rd_1_t16_aout
+(None, 'col_rd_1_t16'): col_rd_1_t16_bin
+('col_rd_1_t16', 'mac_0_1_t16'): col_rd_1_t16_bout
+(None, 'row_rd_2_t16'): row_rd_2_t16_ain
+('row_rd_2_t16', 'mac_2_0_t16'): row_rd_2_t16_aout
+(None, 'col_rd_2_t16'): col_rd_2_t16_bin
+('col_rd_2_t16', 'mac_0_2_t16'): col_rd_2_t16_bout
+(None, 'row_rd_0_t17'): row_rd_0_t17_ain
+('row_rd_0_t17', 'mac_0_0_t17'): row_rd_0_t17_aout
+(None, 'col_rd_0_t17'): col_rd_0_t17_bin
+('col_rd_0_t17', 'mac_0_0_t17'): col_rd_0_t17_bout
+(None, 'row_rd_1_t17'): row_rd_1_t17_ain
+('row_rd_1_t17', 'mac_1_0_t17'): row_rd_1_t17_aout
+(None, 'col_rd_1_t17'): col_rd_1_t17_bin
+('col_rd_1_t17', 'mac_0_1_t17'): col_rd_1_t17_bout
+(None, 'row_rd_2_t17'): row_rd_2_t17_ain
+('row_rd_2_t17', 'mac_2_0_t17'): row_rd_2_t17_aout
+(None, 'col_rd_2_t17'): col_rd_2_t17_bin
+('col_rd_2_t17', 'mac_0_2_t17'): col_rd_2_t17_bout
+(None, 'row_rd_0_t18'): row_rd_0_t18_ain
+('row_rd_0_t18', 'mac_0_0_t18'): row_rd_0_t18_aout
+(None, 'col_rd_0_t18'): col_rd_0_t18_bin
+('col_rd_0_t18', 'mac_0_0_t18'): col_rd_0_t18_bout
+(None, 'row_rd_1_t18'): row_rd_1_t18_ain
+('row_rd_1_t18', 'mac_1_0_t18'): row_rd_1_t18_aout
+(None, 'col_rd_1_t18'): col_rd_1_t18_bin
+('col_rd_1_t18', 'mac_0_1_t18'): col_rd_1_t18_bout
+(None, 'row_rd_2_t18'): row_rd_2_t18_ain
+('row_rd_2_t18', 'mac_2_0_t18'): row_rd_2_t18_aout
+(None, 'col_rd_2_t18'): col_rd_2_t18_bin
+('col_rd_2_t18', 'mac_0_2_t18'): col_rd_2_t18_bout
+(None, 'row_rd_0_t19'): row_rd_0_t19_ain
+('row_rd_0_t19', 'mac_0_0_t19'): row_rd_0_t19_aout
+(None, 'col_rd_0_t19'): col_rd_0_t19_bin
+('col_rd_0_t19', 'mac_0_0_t19'): col_rd_0_t19_bout
+(None, 'row_rd_1_t19'): row_rd_1_t19_ain
+('row_rd_1_t19', 'mac_1_0_t19'): row_rd_1_t19_aout
+(None, 'col_rd_1_t19'): col_rd_1_t19_bin
+('col_rd_1_t19', 'mac_0_1_t19'): col_rd_1_t19_bout
+(None, 'row_rd_2_t19'): row_rd_2_t19_ain
+('row_rd_2_t19', 'mac_2_0_t19'): row_rd_2_t19_aout
+(None, 'col_rd_2_t19'): col_rd_2_t19_bin
+('col_rd_2_t19', 'mac_0_2_t19'): col_rd_2_t19_bout
+(None, 'row_rd_0_t20'): row_rd_0_t20_ain
+('row_rd_0_t20', 'mac_0_0_t20'): row_rd_0_t20_aout
+(None, 'col_rd_0_t20'): col_rd_0_t20_bin
+('col_rd_0_t20', 'mac_0_0_t20'): col_rd_0_t20_bout
+(None, 'row_rd_1_t20'): row_rd_1_t20_ain
+('row_rd_1_t20', 'mac_1_0_t20'): row_rd_1_t20_aout
+(None, 'col_rd_1_t20'): col_rd_1_t20_bin
+('col_rd_1_t20', 'mac_0_1_t20'): col_rd_1_t20_bout
+(None, 'row_rd_2_t20'): row_rd_2_t20_ain
+('row_rd_2_t20', 'mac_2_0_t20'): row_rd_2_t20_aout
+(None, 'col_rd_2_t20'): col_rd_2_t20_bin
+('col_rd_2_t20', 'mac_0_2_t20'): col_rd_2_t20_bout
+(None, 'row_rd_0_t21'): row_rd_0_t21_ain
+('row_rd_0_t21', 'mac_0_0_t21'): row_rd_0_t21_aout
+(None, 'col_rd_0_t21'): col_rd_0_t21_bin
+('col_rd_0_t21', 'mac_0_0_t21'): col_rd_0_t21_bout
+(None, 'row_rd_1_t21'): row_rd_1_t21_ain
+('row_rd_1_t21', 'mac_1_0_t21'): row_rd_1_t21_aout
+(None, 'col_rd_1_t21'): col_rd_1_t21_bin
+('col_rd_1_t21', 'mac_0_1_t21'): col_rd_1_t21_bout
+(None, 'row_rd_2_t21'): row_rd_2_t21_ain
+('row_rd_2_t21', 'mac_2_0_t21'): row_rd_2_t21_aout
+(None, 'col_rd_2_t21'): col_rd_2_t21_bin
+('col_rd_2_t21', 'mac_0_2_t21'): col_rd_2_t21_bout
+(None, 'row_rd_0_t22'): row_rd_0_t22_ain
+('row_rd_0_t22', 'mac_0_0_t22'): row_rd_0_t22_aout
+(None, 'col_rd_0_t22'): col_rd_0_t22_bin
+('col_rd_0_t22', 'mac_0_0_t22'): col_rd_0_t22_bout
+(None, 'row_rd_1_t22'): row_rd_1_t22_ain
+('row_rd_1_t22', 'mac_1_0_t22'): row_rd_1_t22_aout
+(None, 'col_rd_1_t22'): col_rd_1_t22_bin
+('col_rd_1_t22', 'mac_0_1_t22'): col_rd_1_t22_bout
+(None, 'row_rd_2_t22'): row_rd_2_t22_ain
+('row_rd_2_t22', 'mac_2_0_t22'): row_rd_2_t22_aout
+(None, 'col_rd_2_t22'): col_rd_2_t22_bin
+('col_rd_2_t22', 'mac_0_2_t22'): col_rd_2_t22_bout
+(None, 'row_rd_0_t23'): row_rd_0_t23_ain
+('row_rd_0_t23', 'mac_0_0_t23'): row_rd_0_t23_aout
+(None, 'col_rd_0_t23'): col_rd_0_t23_bin
+('col_rd_0_t23', 'mac_0_0_t23'): col_rd_0_t23_bout
+(None, 'row_rd_1_t23'): row_rd_1_t23_ain
+('row_rd_1_t23', 'mac_1_0_t23'): row_rd_1_t23_aout
+(None, 'col_rd_1_t23'): col_rd_1_t23_bin
+('col_rd_1_t23', 'mac_0_1_t23'): col_rd_1_t23_bout
+(None, 'row_rd_2_t23'): row_rd_2_t23_ain
+('row_rd_2_t23', 'mac_2_0_t23'): row_rd_2_t23_aout
+(None, 'col_rd_2_t23'): col_rd_2_t23_bin
+('col_rd_2_t23', 'mac_0_2_t23'): col_rd_2_t23_bout
+(None, 'mac_0_0_t0'): mac_0_0_t0_retin
+('mac_0_0_t0', 'mac_0_0_t1'): mac_0_0_t0_retout
+('mac_0_0_t0', 'mac_0_1_t0'): mac_0_0_t0_aout
+('mac_0_0_t0', 'mac_1_0_t0'): mac_0_0_t0_bout
+(None, 'mac_0_1_t0'): mac_0_1_t0_retin
+('mac_0_1_t0', 'mac_0_1_t1'): mac_0_1_t0_retout
+('mac_0_1_t0', 'mac_0_2_t0'): mac_0_1_t0_aout
+('mac_0_1_t0', 'mac_1_1_t0'): mac_0_1_t0_bout
+(None, 'mac_0_2_t0'): mac_0_2_t0_retin
+('mac_0_2_t0', 'mac_0_2_t1'): mac_0_2_t0_retout
+('mac_0_2_t0', 'mac_1_2_t0'): mac_0_2_t0_bout
+(None, 'mac_1_0_t0'): mac_1_0_t0_retin
+('mac_1_0_t0', 'mac_1_0_t1'): mac_1_0_t0_retout
+('mac_1_0_t0', 'mac_1_1_t0'): mac_1_0_t0_aout
+('mac_1_0_t0', 'mac_2_0_t0'): mac_1_0_t0_bout
+(None, 'mac_1_1_t0'): mac_1_1_t0_retin
+('mac_1_1_t0', 'mac_1_1_t1'): mac_1_1_t0_retout
+('mac_1_1_t0', 'mac_1_2_t0'): mac_1_1_t0_aout
+('mac_1_1_t0', 'mac_2_1_t0'): mac_1_1_t0_bout
+(None, 'mac_1_2_t0'): mac_1_2_t0_retin
+('mac_1_2_t0', 'mac_1_2_t1'): mac_1_2_t0_retout
+('mac_1_2_t0', 'mac_2_2_t0'): mac_1_2_t0_bout
+(None, 'mac_2_0_t0'): mac_2_0_t0_retin
+('mac_2_0_t0', 'mac_2_0_t1'): mac_2_0_t0_retout
+('mac_2_0_t0', 'mac_2_1_t0'): mac_2_0_t0_aout
+(None, 'mac_2_1_t0'): mac_2_1_t0_retin
+('mac_2_1_t0', 'mac_2_1_t1'): mac_2_1_t0_retout
+('mac_2_1_t0', 'mac_2_2_t0'): mac_2_1_t0_aout
+(None, 'mac_2_2_t0'): mac_2_2_t0_retin
+('mac_2_2_t0', 'mac_2_2_t1'): mac_2_2_t0_retout
+('mac_0_0_t1', 'mac_0_0_t2'): mac_0_0_t1_retout
+('mac_0_0_t1', 'mac_0_1_t1'): mac_0_0_t1_aout
+('mac_0_0_t1', 'mac_1_0_t1'): mac_0_0_t1_bout
+('mac_0_1_t1', 'mac_0_1_t2'): mac_0_1_t1_retout
+('mac_0_1_t1', 'mac_0_2_t1'): mac_0_1_t1_aout
+('mac_0_1_t1', 'mac_1_1_t1'): mac_0_1_t1_bout
+('mac_0_2_t1', 'mac_0_2_t2'): mac_0_2_t1_retout
+('mac_0_2_t1', 'mac_1_2_t1'): mac_0_2_t1_bout
+('mac_1_0_t1', 'mac_1_0_t2'): mac_1_0_t1_retout
+('mac_1_0_t1', 'mac_1_1_t1'): mac_1_0_t1_aout
+('mac_1_0_t1', 'mac_2_0_t1'): mac_1_0_t1_bout
+('mac_1_1_t1', 'mac_1_1_t2'): mac_1_1_t1_retout
+('mac_1_1_t1', 'mac_1_2_t1'): mac_1_1_t1_aout
+('mac_1_1_t1', 'mac_2_1_t1'): mac_1_1_t1_bout
+('mac_1_2_t1', 'mac_1_2_t2'): mac_1_2_t1_retout
+('mac_1_2_t1', 'mac_2_2_t1'): mac_1_2_t1_bout
+('mac_2_0_t1', 'mac_2_0_t2'): mac_2_0_t1_retout
+('mac_2_0_t1', 'mac_2_1_t1'): mac_2_0_t1_aout
+('mac_2_1_t1', 'mac_2_1_t2'): mac_2_1_t1_retout
+('mac_2_1_t1', 'mac_2_2_t1'): mac_2_1_t1_aout
+('mac_2_2_t1', 'mac_2_2_t2'): mac_2_2_t1_retout
+('mac_0_0_t2', 'mac_0_0_t3'): mac_0_0_t2_retout
+('mac_0_0_t2', 'mac_0_1_t2'): mac_0_0_t2_aout
+('mac_0_0_t2', 'mac_1_0_t2'): mac_0_0_t2_bout
+('mac_0_1_t2', 'mac_0_1_t3'): mac_0_1_t2_retout
+('mac_0_1_t2', 'mac_0_2_t2'): mac_0_1_t2_aout
+('mac_0_1_t2', 'mac_1_1_t2'): mac_0_1_t2_bout
+('mac_0_2_t2', 'mac_0_2_t3'): mac_0_2_t2_retout
+('mac_0_2_t2', 'mac_1_2_t2'): mac_0_2_t2_bout
+('mac_1_0_t2', 'mac_1_0_t3'): mac_1_0_t2_retout
+('mac_1_0_t2', 'mac_1_1_t2'): mac_1_0_t2_aout
+('mac_1_0_t2', 'mac_2_0_t2'): mac_1_0_t2_bout
+('mac_1_1_t2', 'mac_1_1_t3'): mac_1_1_t2_retout
+('mac_1_1_t2', 'mac_1_2_t2'): mac_1_1_t2_aout
+('mac_1_1_t2', 'mac_2_1_t2'): mac_1_1_t2_bout
+('mac_1_2_t2', 'mac_1_2_t3'): mac_1_2_t2_retout
+('mac_1_2_t2', 'mac_2_2_t2'): mac_1_2_t2_bout
+('mac_2_0_t2', 'mac_2_0_t3'): mac_2_0_t2_retout
+('mac_2_0_t2', 'mac_2_1_t2'): mac_2_0_t2_aout
+('mac_2_1_t2', 'mac_2_1_t3'): mac_2_1_t2_retout
+('mac_2_1_t2', 'mac_2_2_t2'): mac_2_1_t2_aout
+('mac_2_2_t2', 'mac_2_2_t3'): mac_2_2_t2_retout
+('mac_0_0_t3', 'mac_0_0_t4'): mac_0_0_t3_retout
+('mac_0_0_t3', 'mac_0_1_t3'): mac_0_0_t3_aout
+('mac_0_0_t3', 'mac_1_0_t3'): mac_0_0_t3_bout
+('mac_0_1_t3', 'mac_0_1_t4'): mac_0_1_t3_retout
+('mac_0_1_t3', 'mac_0_2_t3'): mac_0_1_t3_aout
+('mac_0_1_t3', 'mac_1_1_t3'): mac_0_1_t3_bout
+('mac_0_2_t3', 'mac_0_2_t4'): mac_0_2_t3_retout
+('mac_0_2_t3', 'mac_1_2_t3'): mac_0_2_t3_bout
+('mac_1_0_t3', 'mac_1_0_t4'): mac_1_0_t3_retout
+('mac_1_0_t3', 'mac_1_1_t3'): mac_1_0_t3_aout
+('mac_1_0_t3', 'mac_2_0_t3'): mac_1_0_t3_bout
+('mac_1_1_t3', 'mac_1_1_t4'): mac_1_1_t3_retout
+('mac_1_1_t3', 'mac_1_2_t3'): mac_1_1_t3_aout
+('mac_1_1_t3', 'mac_2_1_t3'): mac_1_1_t3_bout
+('mac_1_2_t3', 'mac_1_2_t4'): mac_1_2_t3_retout
+('mac_1_2_t3', 'mac_2_2_t3'): mac_1_2_t3_bout
+('mac_2_0_t3', 'mac_2_0_t4'): mac_2_0_t3_retout
+('mac_2_0_t3', 'mac_2_1_t3'): mac_2_0_t3_aout
+('mac_2_1_t3', 'mac_2_1_t4'): mac_2_1_t3_retout
+('mac_2_1_t3', 'mac_2_2_t3'): mac_2_1_t3_aout
+('mac_2_2_t3', 'mac_2_2_t4'): mac_2_2_t3_retout
+('mac_0_0_t4', 'mac_0_0_t5'): mac_0_0_t4_retout
+('mac_0_0_t4', 'mac_0_1_t4'): mac_0_0_t4_aout
+('mac_0_0_t4', 'mac_1_0_t4'): mac_0_0_t4_bout
+('mac_0_1_t4', 'mac_0_1_t5'): mac_0_1_t4_retout
+('mac_0_1_t4', 'mac_0_2_t4'): mac_0_1_t4_aout
+('mac_0_1_t4', 'mac_1_1_t4'): mac_0_1_t4_bout
+('mac_0_2_t4', 'mac_0_2_t5'): mac_0_2_t4_retout
+('mac_0_2_t4', 'mac_1_2_t4'): mac_0_2_t4_bout
+('mac_1_0_t4', 'mac_1_0_t5'): mac_1_0_t4_retout
+('mac_1_0_t4', 'mac_1_1_t4'): mac_1_0_t4_aout
+('mac_1_0_t4', 'mac_2_0_t4'): mac_1_0_t4_bout
+('mac_1_1_t4', 'mac_1_1_t5'): mac_1_1_t4_retout
+('mac_1_1_t4', 'mac_1_2_t4'): mac_1_1_t4_aout
+('mac_1_1_t4', 'mac_2_1_t4'): mac_1_1_t4_bout
+('mac_1_2_t4', 'mac_1_2_t5'): mac_1_2_t4_retout
+('mac_1_2_t4', 'mac_2_2_t4'): mac_1_2_t4_bout
+('mac_2_0_t4', 'mac_2_0_t5'): mac_2_0_t4_retout
+('mac_2_0_t4', 'mac_2_1_t4'): mac_2_0_t4_aout
+('mac_2_1_t4', 'mac_2_1_t5'): mac_2_1_t4_retout
+('mac_2_1_t4', 'mac_2_2_t4'): mac_2_1_t4_aout
+('mac_2_2_t4', 'mac_2_2_t5'): mac_2_2_t4_retout
+('mac_0_0_t5', 'arr_wt_0_0_t5'): mac_0_0_t5_retout
+('mac_0_0_t5', 'mac_0_1_t5'): mac_0_0_t5_aout
+('mac_0_0_t5', 'mac_1_0_t5'): mac_0_0_t5_bout
+('arr_wt_0_0_t5', None): arr_wt_0_0_t5_retout
+('mac_0_1_t5', 'arr_wt_0_1_t5'): mac_0_1_t5_retout
+('mac_0_1_t5', 'mac_0_2_t5'): mac_0_1_t5_aout
+('mac_0_1_t5', 'mac_1_1_t5'): mac_0_1_t5_bout
+('arr_wt_0_1_t5', None): arr_wt_0_1_t5_retout
+('mac_0_2_t5', 'arr_wt_0_2_t5'): mac_0_2_t5_retout
+('mac_0_2_t5', 'mac_1_2_t5'): mac_0_2_t5_bout
+('arr_wt_0_2_t5', None): arr_wt_0_2_t5_retout
+('mac_1_0_t5', 'arr_wt_1_0_t5'): mac_1_0_t5_retout
+('mac_1_0_t5', 'mac_1_1_t5'): mac_1_0_t5_aout
+('mac_1_0_t5', 'mac_2_0_t5'): mac_1_0_t5_bout
+('arr_wt_1_0_t5', None): arr_wt_1_0_t5_retout
+('mac_1_1_t5', 'arr_wt_1_1_t5'): mac_1_1_t5_retout
+('mac_1_1_t5', 'mac_1_2_t5'): mac_1_1_t5_aout
+('mac_1_1_t5', 'mac_2_1_t5'): mac_1_1_t5_bout
+('arr_wt_1_1_t5', None): arr_wt_1_1_t5_retout
+('mac_1_2_t5', 'arr_wt_1_2_t5'): mac_1_2_t5_retout
+('mac_1_2_t5', 'mac_2_2_t5'): mac_1_2_t5_bout
+('arr_wt_1_2_t5', None): arr_wt_1_2_t5_retout
+('mac_2_0_t5', 'arr_wt_2_0_t5'): mac_2_0_t5_retout
+('mac_2_0_t5', 'mac_2_1_t5'): mac_2_0_t5_aout
+('arr_wt_2_0_t5', None): arr_wt_2_0_t5_retout
+('mac_2_1_t5', 'arr_wt_2_1_t5'): mac_2_1_t5_retout
+('mac_2_1_t5', 'mac_2_2_t5'): mac_2_1_t5_aout
+('arr_wt_2_1_t5', None): arr_wt_2_1_t5_retout
+('mac_2_2_t5', 'arr_wt_2_2_t5'): mac_2_2_t5_retout
+('arr_wt_2_2_t5', None): arr_wt_2_2_t5_retout
+(None, 'mac_0_0_t6'): mac_0_0_t6_retin
+('mac_0_0_t6', 'mac_0_0_t7'): mac_0_0_t6_retout
+('mac_0_0_t6', 'mac_0_1_t6'): mac_0_0_t6_aout
+('mac_0_0_t6', 'mac_1_0_t6'): mac_0_0_t6_bout
+(None, 'mac_0_1_t6'): mac_0_1_t6_retin
+('mac_0_1_t6', 'mac_0_1_t7'): mac_0_1_t6_retout
+('mac_0_1_t6', 'mac_0_2_t6'): mac_0_1_t6_aout
+('mac_0_1_t6', 'mac_1_1_t6'): mac_0_1_t6_bout
+(None, 'mac_0_2_t6'): mac_0_2_t6_retin
+('mac_0_2_t6', 'mac_0_2_t7'): mac_0_2_t6_retout
+('mac_0_2_t6', 'mac_1_2_t6'): mac_0_2_t6_bout
+(None, 'mac_1_0_t6'): mac_1_0_t6_retin
+('mac_1_0_t6', 'mac_1_0_t7'): mac_1_0_t6_retout
+('mac_1_0_t6', 'mac_1_1_t6'): mac_1_0_t6_aout
+('mac_1_0_t6', 'mac_2_0_t6'): mac_1_0_t6_bout
+(None, 'mac_1_1_t6'): mac_1_1_t6_retin
+('mac_1_1_t6', 'mac_1_1_t7'): mac_1_1_t6_retout
+('mac_1_1_t6', 'mac_1_2_t6'): mac_1_1_t6_aout
+('mac_1_1_t6', 'mac_2_1_t6'): mac_1_1_t6_bout
+(None, 'mac_1_2_t6'): mac_1_2_t6_retin
+('mac_1_2_t6', 'mac_1_2_t7'): mac_1_2_t6_retout
+('mac_1_2_t6', 'mac_2_2_t6'): mac_1_2_t6_bout
+(None, 'mac_2_0_t6'): mac_2_0_t6_retin
+('mac_2_0_t6', 'mac_2_0_t7'): mac_2_0_t6_retout
+('mac_2_0_t6', 'mac_2_1_t6'): mac_2_0_t6_aout
+(None, 'mac_2_1_t6'): mac_2_1_t6_retin
+('mac_2_1_t6', 'mac_2_1_t7'): mac_2_1_t6_retout
+('mac_2_1_t6', 'mac_2_2_t6'): mac_2_1_t6_aout
+(None, 'mac_2_2_t6'): mac_2_2_t6_retin
+('mac_2_2_t6', 'mac_2_2_t7'): mac_2_2_t6_retout
+('mac_0_0_t7', 'mac_0_0_t8'): mac_0_0_t7_retout
+('mac_0_0_t7', 'mac_0_1_t7'): mac_0_0_t7_aout
+('mac_0_0_t7', 'mac_1_0_t7'): mac_0_0_t7_bout
+('mac_0_1_t7', 'mac_0_1_t8'): mac_0_1_t7_retout
+('mac_0_1_t7', 'mac_0_2_t7'): mac_0_1_t7_aout
+('mac_0_1_t7', 'mac_1_1_t7'): mac_0_1_t7_bout
+('mac_0_2_t7', 'mac_0_2_t8'): mac_0_2_t7_retout
+('mac_0_2_t7', 'mac_1_2_t7'): mac_0_2_t7_bout
+('mac_1_0_t7', 'mac_1_0_t8'): mac_1_0_t7_retout
+('mac_1_0_t7', 'mac_1_1_t7'): mac_1_0_t7_aout
+('mac_1_0_t7', 'mac_2_0_t7'): mac_1_0_t7_bout
+('mac_1_1_t7', 'mac_1_1_t8'): mac_1_1_t7_retout
+('mac_1_1_t7', 'mac_1_2_t7'): mac_1_1_t7_aout
+('mac_1_1_t7', 'mac_2_1_t7'): mac_1_1_t7_bout
+('mac_1_2_t7', 'mac_1_2_t8'): mac_1_2_t7_retout
+('mac_1_2_t7', 'mac_2_2_t7'): mac_1_2_t7_bout
+('mac_2_0_t7', 'mac_2_0_t8'): mac_2_0_t7_retout
+('mac_2_0_t7', 'mac_2_1_t7'): mac_2_0_t7_aout
+('mac_2_1_t7', 'mac_2_1_t8'): mac_2_1_t7_retout
+('mac_2_1_t7', 'mac_2_2_t7'): mac_2_1_t7_aout
+('mac_2_2_t7', 'mac_2_2_t8'): mac_2_2_t7_retout
+('mac_0_0_t8', 'mac_0_0_t9'): mac_0_0_t8_retout
+('mac_0_0_t8', 'mac_0_1_t8'): mac_0_0_t8_aout
+('mac_0_0_t8', 'mac_1_0_t8'): mac_0_0_t8_bout
+('mac_0_1_t8', 'mac_0_1_t9'): mac_0_1_t8_retout
+('mac_0_1_t8', 'mac_0_2_t8'): mac_0_1_t8_aout
+('mac_0_1_t8', 'mac_1_1_t8'): mac_0_1_t8_bout
+('mac_0_2_t8', 'mac_0_2_t9'): mac_0_2_t8_retout
+('mac_0_2_t8', 'mac_1_2_t8'): mac_0_2_t8_bout
+('mac_1_0_t8', 'mac_1_0_t9'): mac_1_0_t8_retout
+('mac_1_0_t8', 'mac_1_1_t8'): mac_1_0_t8_aout
+('mac_1_0_t8', 'mac_2_0_t8'): mac_1_0_t8_bout
+('mac_1_1_t8', 'mac_1_1_t9'): mac_1_1_t8_retout
+('mac_1_1_t8', 'mac_1_2_t8'): mac_1_1_t8_aout
+('mac_1_1_t8', 'mac_2_1_t8'): mac_1_1_t8_bout
+('mac_1_2_t8', 'mac_1_2_t9'): mac_1_2_t8_retout
+('mac_1_2_t8', 'mac_2_2_t8'): mac_1_2_t8_bout
+('mac_2_0_t8', 'mac_2_0_t9'): mac_2_0_t8_retout
+('mac_2_0_t8', 'mac_2_1_t8'): mac_2_0_t8_aout
+('mac_2_1_t8', 'mac_2_1_t9'): mac_2_1_t8_retout
+('mac_2_1_t8', 'mac_2_2_t8'): mac_2_1_t8_aout
+('mac_2_2_t8', 'mac_2_2_t9'): mac_2_2_t8_retout
+('mac_0_0_t9', 'mac_0_0_t10'): mac_0_0_t9_retout
+('mac_0_0_t9', 'mac_0_1_t9'): mac_0_0_t9_aout
+('mac_0_0_t9', 'mac_1_0_t9'): mac_0_0_t9_bout
+('mac_0_1_t9', 'mac_0_1_t10'): mac_0_1_t9_retout
+('mac_0_1_t9', 'mac_0_2_t9'): mac_0_1_t9_aout
+('mac_0_1_t9', 'mac_1_1_t9'): mac_0_1_t9_bout
+('mac_0_2_t9', 'mac_0_2_t10'): mac_0_2_t9_retout
+('mac_0_2_t9', 'mac_1_2_t9'): mac_0_2_t9_bout
+('mac_1_0_t9', 'mac_1_0_t10'): mac_1_0_t9_retout
+('mac_1_0_t9', 'mac_1_1_t9'): mac_1_0_t9_aout
+('mac_1_0_t9', 'mac_2_0_t9'): mac_1_0_t9_bout
+('mac_1_1_t9', 'mac_1_1_t10'): mac_1_1_t9_retout
+('mac_1_1_t9', 'mac_1_2_t9'): mac_1_1_t9_aout
+('mac_1_1_t9', 'mac_2_1_t9'): mac_1_1_t9_bout
+('mac_1_2_t9', 'mac_1_2_t10'): mac_1_2_t9_retout
+('mac_1_2_t9', 'mac_2_2_t9'): mac_1_2_t9_bout
+('mac_2_0_t9', 'mac_2_0_t10'): mac_2_0_t9_retout
+('mac_2_0_t9', 'mac_2_1_t9'): mac_2_0_t9_aout
+('mac_2_1_t9', 'mac_2_1_t10'): mac_2_1_t9_retout
+('mac_2_1_t9', 'mac_2_2_t9'): mac_2_1_t9_aout
+('mac_2_2_t9', 'mac_2_2_t10'): mac_2_2_t9_retout
+('mac_0_0_t10', 'mac_0_0_t11'): mac_0_0_t10_retout
+('mac_0_0_t10', 'mac_0_1_t10'): mac_0_0_t10_aout
+('mac_0_0_t10', 'mac_1_0_t10'): mac_0_0_t10_bout
+('mac_0_1_t10', 'mac_0_1_t11'): mac_0_1_t10_retout
+('mac_0_1_t10', 'mac_0_2_t10'): mac_0_1_t10_aout
+('mac_0_1_t10', 'mac_1_1_t10'): mac_0_1_t10_bout
+('mac_0_2_t10', 'mac_0_2_t11'): mac_0_2_t10_retout
+('mac_0_2_t10', 'mac_1_2_t10'): mac_0_2_t10_bout
+('mac_1_0_t10', 'mac_1_0_t11'): mac_1_0_t10_retout
+('mac_1_0_t10', 'mac_1_1_t10'): mac_1_0_t10_aout
+('mac_1_0_t10', 'mac_2_0_t10'): mac_1_0_t10_bout
+('mac_1_1_t10', 'mac_1_1_t11'): mac_1_1_t10_retout
+('mac_1_1_t10', 'mac_1_2_t10'): mac_1_1_t10_aout
+('mac_1_1_t10', 'mac_2_1_t10'): mac_1_1_t10_bout
+('mac_1_2_t10', 'mac_1_2_t11'): mac_1_2_t10_retout
+('mac_1_2_t10', 'mac_2_2_t10'): mac_1_2_t10_bout
+('mac_2_0_t10', 'mac_2_0_t11'): mac_2_0_t10_retout
+('mac_2_0_t10', 'mac_2_1_t10'): mac_2_0_t10_aout
+('mac_2_1_t10', 'mac_2_1_t11'): mac_2_1_t10_retout
+('mac_2_1_t10', 'mac_2_2_t10'): mac_2_1_t10_aout
+('mac_2_2_t10', 'mac_2_2_t11'): mac_2_2_t10_retout
+('mac_0_0_t11', 'arr_wt_0_0_t11'): mac_0_0_t11_retout
+('mac_0_0_t11', 'mac_0_1_t11'): mac_0_0_t11_aout
+('mac_0_0_t11', 'mac_1_0_t11'): mac_0_0_t11_bout
+('arr_wt_0_0_t11', None): arr_wt_0_0_t11_retout
+('mac_0_1_t11', 'arr_wt_0_1_t11'): mac_0_1_t11_retout
+('mac_0_1_t11', 'mac_0_2_t11'): mac_0_1_t11_aout
+('mac_0_1_t11', 'mac_1_1_t11'): mac_0_1_t11_bout
+('arr_wt_0_1_t11', None): arr_wt_0_1_t11_retout
+('mac_0_2_t11', 'arr_wt_0_2_t11'): mac_0_2_t11_retout
+('mac_0_2_t11', 'mac_1_2_t11'): mac_0_2_t11_bout
+('arr_wt_0_2_t11', None): arr_wt_0_2_t11_retout
+('mac_1_0_t11', 'arr_wt_1_0_t11'): mac_1_0_t11_retout
+('mac_1_0_t11', 'mac_1_1_t11'): mac_1_0_t11_aout
+('mac_1_0_t11', 'mac_2_0_t11'): mac_1_0_t11_bout
+('arr_wt_1_0_t11', None): arr_wt_1_0_t11_retout
+('mac_1_1_t11', 'arr_wt_1_1_t11'): mac_1_1_t11_retout
+('mac_1_1_t11', 'mac_1_2_t11'): mac_1_1_t11_aout
+('mac_1_1_t11', 'mac_2_1_t11'): mac_1_1_t11_bout
+('arr_wt_1_1_t11', None): arr_wt_1_1_t11_retout
+('mac_1_2_t11', 'arr_wt_1_2_t11'): mac_1_2_t11_retout
+('mac_1_2_t11', 'mac_2_2_t11'): mac_1_2_t11_bout
+('arr_wt_1_2_t11', None): arr_wt_1_2_t11_retout
+('mac_2_0_t11', 'arr_wt_2_0_t11'): mac_2_0_t11_retout
+('mac_2_0_t11', 'mac_2_1_t11'): mac_2_0_t11_aout
+('arr_wt_2_0_t11', None): arr_wt_2_0_t11_retout
+('mac_2_1_t11', 'arr_wt_2_1_t11'): mac_2_1_t11_retout
+('mac_2_1_t11', 'mac_2_2_t11'): mac_2_1_t11_aout
+('arr_wt_2_1_t11', None): arr_wt_2_1_t11_retout
+('mac_2_2_t11', 'arr_wt_2_2_t11'): mac_2_2_t11_retout
+('arr_wt_2_2_t11', None): arr_wt_2_2_t11_retout
+(None, 'mac_0_0_t12'): mac_0_0_t12_retin
+('mac_0_0_t12', 'mac_0_0_t13'): mac_0_0_t12_retout
+('mac_0_0_t12', 'mac_0_1_t12'): mac_0_0_t12_aout
+('mac_0_0_t12', 'mac_1_0_t12'): mac_0_0_t12_bout
+(None, 'mac_0_1_t12'): mac_0_1_t12_retin
+('mac_0_1_t12', 'mac_0_1_t13'): mac_0_1_t12_retout
+('mac_0_1_t12', 'mac_0_2_t12'): mac_0_1_t12_aout
+('mac_0_1_t12', 'mac_1_1_t12'): mac_0_1_t12_bout
+(None, 'mac_0_2_t12'): mac_0_2_t12_retin
+('mac_0_2_t12', 'mac_0_2_t13'): mac_0_2_t12_retout
+('mac_0_2_t12', 'mac_1_2_t12'): mac_0_2_t12_bout
+(None, 'mac_1_0_t12'): mac_1_0_t12_retin
+('mac_1_0_t12', 'mac_1_0_t13'): mac_1_0_t12_retout
+('mac_1_0_t12', 'mac_1_1_t12'): mac_1_0_t12_aout
+('mac_1_0_t12', 'mac_2_0_t12'): mac_1_0_t12_bout
+(None, 'mac_1_1_t12'): mac_1_1_t12_retin
+('mac_1_1_t12', 'mac_1_1_t13'): mac_1_1_t12_retout
+('mac_1_1_t12', 'mac_1_2_t12'): mac_1_1_t12_aout
+('mac_1_1_t12', 'mac_2_1_t12'): mac_1_1_t12_bout
+(None, 'mac_1_2_t12'): mac_1_2_t12_retin
+('mac_1_2_t12', 'mac_1_2_t13'): mac_1_2_t12_retout
+('mac_1_2_t12', 'mac_2_2_t12'): mac_1_2_t12_bout
+(None, 'mac_2_0_t12'): mac_2_0_t12_retin
+('mac_2_0_t12', 'mac_2_0_t13'): mac_2_0_t12_retout
+('mac_2_0_t12', 'mac_2_1_t12'): mac_2_0_t12_aout
+(None, 'mac_2_1_t12'): mac_2_1_t12_retin
+('mac_2_1_t12', 'mac_2_1_t13'): mac_2_1_t12_retout
+('mac_2_1_t12', 'mac_2_2_t12'): mac_2_1_t12_aout
+(None, 'mac_2_2_t12'): mac_2_2_t12_retin
+('mac_2_2_t12', 'mac_2_2_t13'): mac_2_2_t12_retout
+('mac_0_0_t13', 'mac_0_0_t14'): mac_0_0_t13_retout
+('mac_0_0_t13', 'mac_0_1_t13'): mac_0_0_t13_aout
+('mac_0_0_t13', 'mac_1_0_t13'): mac_0_0_t13_bout
+('mac_0_1_t13', 'mac_0_1_t14'): mac_0_1_t13_retout
+('mac_0_1_t13', 'mac_0_2_t13'): mac_0_1_t13_aout
+('mac_0_1_t13', 'mac_1_1_t13'): mac_0_1_t13_bout
+('mac_0_2_t13', 'mac_0_2_t14'): mac_0_2_t13_retout
+('mac_0_2_t13', 'mac_1_2_t13'): mac_0_2_t13_bout
+('mac_1_0_t13', 'mac_1_0_t14'): mac_1_0_t13_retout
+('mac_1_0_t13', 'mac_1_1_t13'): mac_1_0_t13_aout
+('mac_1_0_t13', 'mac_2_0_t13'): mac_1_0_t13_bout
+('mac_1_1_t13', 'mac_1_1_t14'): mac_1_1_t13_retout
+('mac_1_1_t13', 'mac_1_2_t13'): mac_1_1_t13_aout
+('mac_1_1_t13', 'mac_2_1_t13'): mac_1_1_t13_bout
+('mac_1_2_t13', 'mac_1_2_t14'): mac_1_2_t13_retout
+('mac_1_2_t13', 'mac_2_2_t13'): mac_1_2_t13_bout
+('mac_2_0_t13', 'mac_2_0_t14'): mac_2_0_t13_retout
+('mac_2_0_t13', 'mac_2_1_t13'): mac_2_0_t13_aout
+('mac_2_1_t13', 'mac_2_1_t14'): mac_2_1_t13_retout
+('mac_2_1_t13', 'mac_2_2_t13'): mac_2_1_t13_aout
+('mac_2_2_t13', 'mac_2_2_t14'): mac_2_2_t13_retout
+('mac_0_0_t14', 'mac_0_0_t15'): mac_0_0_t14_retout
+('mac_0_0_t14', 'mac_0_1_t14'): mac_0_0_t14_aout
+('mac_0_0_t14', 'mac_1_0_t14'): mac_0_0_t14_bout
+('mac_0_1_t14', 'mac_0_1_t15'): mac_0_1_t14_retout
+('mac_0_1_t14', 'mac_0_2_t14'): mac_0_1_t14_aout
+('mac_0_1_t14', 'mac_1_1_t14'): mac_0_1_t14_bout
+('mac_0_2_t14', 'mac_0_2_t15'): mac_0_2_t14_retout
+('mac_0_2_t14', 'mac_1_2_t14'): mac_0_2_t14_bout
+('mac_1_0_t14', 'mac_1_0_t15'): mac_1_0_t14_retout
+('mac_1_0_t14', 'mac_1_1_t14'): mac_1_0_t14_aout
+('mac_1_0_t14', 'mac_2_0_t14'): mac_1_0_t14_bout
+('mac_1_1_t14', 'mac_1_1_t15'): mac_1_1_t14_retout
+('mac_1_1_t14', 'mac_1_2_t14'): mac_1_1_t14_aout
+('mac_1_1_t14', 'mac_2_1_t14'): mac_1_1_t14_bout
+('mac_1_2_t14', 'mac_1_2_t15'): mac_1_2_t14_retout
+('mac_1_2_t14', 'mac_2_2_t14'): mac_1_2_t14_bout
+('mac_2_0_t14', 'mac_2_0_t15'): mac_2_0_t14_retout
+('mac_2_0_t14', 'mac_2_1_t14'): mac_2_0_t14_aout
+('mac_2_1_t14', 'mac_2_1_t15'): mac_2_1_t14_retout
+('mac_2_1_t14', 'mac_2_2_t14'): mac_2_1_t14_aout
+('mac_2_2_t14', 'mac_2_2_t15'): mac_2_2_t14_retout
+('mac_0_0_t15', 'mac_0_0_t16'): mac_0_0_t15_retout
+('mac_0_0_t15', 'mac_0_1_t15'): mac_0_0_t15_aout
+('mac_0_0_t15', 'mac_1_0_t15'): mac_0_0_t15_bout
+('mac_0_1_t15', 'mac_0_1_t16'): mac_0_1_t15_retout
+('mac_0_1_t15', 'mac_0_2_t15'): mac_0_1_t15_aout
+('mac_0_1_t15', 'mac_1_1_t15'): mac_0_1_t15_bout
+('mac_0_2_t15', 'mac_0_2_t16'): mac_0_2_t15_retout
+('mac_0_2_t15', 'mac_1_2_t15'): mac_0_2_t15_bout
+('mac_1_0_t15', 'mac_1_0_t16'): mac_1_0_t15_retout
+('mac_1_0_t15', 'mac_1_1_t15'): mac_1_0_t15_aout
+('mac_1_0_t15', 'mac_2_0_t15'): mac_1_0_t15_bout
+('mac_1_1_t15', 'mac_1_1_t16'): mac_1_1_t15_retout
+('mac_1_1_t15', 'mac_1_2_t15'): mac_1_1_t15_aout
+('mac_1_1_t15', 'mac_2_1_t15'): mac_1_1_t15_bout
+('mac_1_2_t15', 'mac_1_2_t16'): mac_1_2_t15_retout
+('mac_1_2_t15', 'mac_2_2_t15'): mac_1_2_t15_bout
+('mac_2_0_t15', 'mac_2_0_t16'): mac_2_0_t15_retout
+('mac_2_0_t15', 'mac_2_1_t15'): mac_2_0_t15_aout
+('mac_2_1_t15', 'mac_2_1_t16'): mac_2_1_t15_retout
+('mac_2_1_t15', 'mac_2_2_t15'): mac_2_1_t15_aout
+('mac_2_2_t15', 'mac_2_2_t16'): mac_2_2_t15_retout
+('mac_0_0_t16', 'mac_0_0_t17'): mac_0_0_t16_retout
+('mac_0_0_t16', 'mac_0_1_t16'): mac_0_0_t16_aout
+('mac_0_0_t16', 'mac_1_0_t16'): mac_0_0_t16_bout
+('mac_0_1_t16', 'mac_0_1_t17'): mac_0_1_t16_retout
+('mac_0_1_t16', 'mac_0_2_t16'): mac_0_1_t16_aout
+('mac_0_1_t16', 'mac_1_1_t16'): mac_0_1_t16_bout
+('mac_0_2_t16', 'mac_0_2_t17'): mac_0_2_t16_retout
+('mac_0_2_t16', 'mac_1_2_t16'): mac_0_2_t16_bout
+('mac_1_0_t16', 'mac_1_0_t17'): mac_1_0_t16_retout
+('mac_1_0_t16', 'mac_1_1_t16'): mac_1_0_t16_aout
+('mac_1_0_t16', 'mac_2_0_t16'): mac_1_0_t16_bout
+('mac_1_1_t16', 'mac_1_1_t17'): mac_1_1_t16_retout
+('mac_1_1_t16', 'mac_1_2_t16'): mac_1_1_t16_aout
+('mac_1_1_t16', 'mac_2_1_t16'): mac_1_1_t16_bout
+('mac_1_2_t16', 'mac_1_2_t17'): mac_1_2_t16_retout
+('mac_1_2_t16', 'mac_2_2_t16'): mac_1_2_t16_bout
+('mac_2_0_t16', 'mac_2_0_t17'): mac_2_0_t16_retout
+('mac_2_0_t16', 'mac_2_1_t16'): mac_2_0_t16_aout
+('mac_2_1_t16', 'mac_2_1_t17'): mac_2_1_t16_retout
+('mac_2_1_t16', 'mac_2_2_t16'): mac_2_1_t16_aout
+('mac_2_2_t16', 'mac_2_2_t17'): mac_2_2_t16_retout
+('mac_0_0_t17', 'arr_wt_0_0_t17'): mac_0_0_t17_retout
+('mac_0_0_t17', 'mac_0_1_t17'): mac_0_0_t17_aout
+('mac_0_0_t17', 'mac_1_0_t17'): mac_0_0_t17_bout
+('arr_wt_0_0_t17', None): arr_wt_0_0_t17_retout
+('mac_0_1_t17', 'arr_wt_0_1_t17'): mac_0_1_t17_retout
+('mac_0_1_t17', 'mac_0_2_t17'): mac_0_1_t17_aout
+('mac_0_1_t17', 'mac_1_1_t17'): mac_0_1_t17_bout
+('arr_wt_0_1_t17', None): arr_wt_0_1_t17_retout
+('mac_0_2_t17', 'arr_wt_0_2_t17'): mac_0_2_t17_retout
+('mac_0_2_t17', 'mac_1_2_t17'): mac_0_2_t17_bout
+('arr_wt_0_2_t17', None): arr_wt_0_2_t17_retout
+('mac_1_0_t17', 'arr_wt_1_0_t17'): mac_1_0_t17_retout
+('mac_1_0_t17', 'mac_1_1_t17'): mac_1_0_t17_aout
+('mac_1_0_t17', 'mac_2_0_t17'): mac_1_0_t17_bout
+('arr_wt_1_0_t17', None): arr_wt_1_0_t17_retout
+('mac_1_1_t17', 'arr_wt_1_1_t17'): mac_1_1_t17_retout
+('mac_1_1_t17', 'mac_1_2_t17'): mac_1_1_t17_aout
+('mac_1_1_t17', 'mac_2_1_t17'): mac_1_1_t17_bout
+('arr_wt_1_1_t17', None): arr_wt_1_1_t17_retout
+('mac_1_2_t17', 'arr_wt_1_2_t17'): mac_1_2_t17_retout
+('mac_1_2_t17', 'mac_2_2_t17'): mac_1_2_t17_bout
+('arr_wt_1_2_t17', None): arr_wt_1_2_t17_retout
+('mac_2_0_t17', 'arr_wt_2_0_t17'): mac_2_0_t17_retout
+('mac_2_0_t17', 'mac_2_1_t17'): mac_2_0_t17_aout
+('arr_wt_2_0_t17', None): arr_wt_2_0_t17_retout
+('mac_2_1_t17', 'arr_wt_2_1_t17'): mac_2_1_t17_retout
+('mac_2_1_t17', 'mac_2_2_t17'): mac_2_1_t17_aout
+('arr_wt_2_1_t17', None): arr_wt_2_1_t17_retout
+('mac_2_2_t17', 'arr_wt_2_2_t17'): mac_2_2_t17_retout
+('arr_wt_2_2_t17', None): arr_wt_2_2_t17_retout
+(None, 'mac_0_0_t18'): mac_0_0_t18_retin
+('mac_0_0_t18', 'mac_0_0_t19'): mac_0_0_t18_retout
+('mac_0_0_t18', 'mac_0_1_t18'): mac_0_0_t18_aout
+('mac_0_0_t18', 'mac_1_0_t18'): mac_0_0_t18_bout
+(None, 'mac_0_1_t18'): mac_0_1_t18_retin
+('mac_0_1_t18', 'mac_0_1_t19'): mac_0_1_t18_retout
+('mac_0_1_t18', 'mac_0_2_t18'): mac_0_1_t18_aout
+('mac_0_1_t18', 'mac_1_1_t18'): mac_0_1_t18_bout
+(None, 'mac_0_2_t18'): mac_0_2_t18_retin
+('mac_0_2_t18', 'mac_0_2_t19'): mac_0_2_t18_retout
+('mac_0_2_t18', 'mac_1_2_t18'): mac_0_2_t18_bout
+(None, 'mac_1_0_t18'): mac_1_0_t18_retin
+('mac_1_0_t18', 'mac_1_0_t19'): mac_1_0_t18_retout
+('mac_1_0_t18', 'mac_1_1_t18'): mac_1_0_t18_aout
+('mac_1_0_t18', 'mac_2_0_t18'): mac_1_0_t18_bout
+(None, 'mac_1_1_t18'): mac_1_1_t18_retin
+('mac_1_1_t18', 'mac_1_1_t19'): mac_1_1_t18_retout
+('mac_1_1_t18', 'mac_1_2_t18'): mac_1_1_t18_aout
+('mac_1_1_t18', 'mac_2_1_t18'): mac_1_1_t18_bout
+(None, 'mac_1_2_t18'): mac_1_2_t18_retin
+('mac_1_2_t18', 'mac_1_2_t19'): mac_1_2_t18_retout
+('mac_1_2_t18', 'mac_2_2_t18'): mac_1_2_t18_bout
+(None, 'mac_2_0_t18'): mac_2_0_t18_retin
+('mac_2_0_t18', 'mac_2_0_t19'): mac_2_0_t18_retout
+('mac_2_0_t18', 'mac_2_1_t18'): mac_2_0_t18_aout
+(None, 'mac_2_1_t18'): mac_2_1_t18_retin
+('mac_2_1_t18', 'mac_2_1_t19'): mac_2_1_t18_retout
+('mac_2_1_t18', 'mac_2_2_t18'): mac_2_1_t18_aout
+(None, 'mac_2_2_t18'): mac_2_2_t18_retin
+('mac_2_2_t18', 'mac_2_2_t19'): mac_2_2_t18_retout
+('mac_0_0_t19', 'mac_0_0_t20'): mac_0_0_t19_retout
+('mac_0_0_t19', 'mac_0_1_t19'): mac_0_0_t19_aout
+('mac_0_0_t19', 'mac_1_0_t19'): mac_0_0_t19_bout
+('mac_0_1_t19', 'mac_0_1_t20'): mac_0_1_t19_retout
+('mac_0_1_t19', 'mac_0_2_t19'): mac_0_1_t19_aout
+('mac_0_1_t19', 'mac_1_1_t19'): mac_0_1_t19_bout
+('mac_0_2_t19', 'mac_0_2_t20'): mac_0_2_t19_retout
+('mac_0_2_t19', 'mac_1_2_t19'): mac_0_2_t19_bout
+('mac_1_0_t19', 'mac_1_0_t20'): mac_1_0_t19_retout
+('mac_1_0_t19', 'mac_1_1_t19'): mac_1_0_t19_aout
+('mac_1_0_t19', 'mac_2_0_t19'): mac_1_0_t19_bout
+('mac_1_1_t19', 'mac_1_1_t20'): mac_1_1_t19_retout
+('mac_1_1_t19', 'mac_1_2_t19'): mac_1_1_t19_aout
+('mac_1_1_t19', 'mac_2_1_t19'): mac_1_1_t19_bout
+('mac_1_2_t19', 'mac_1_2_t20'): mac_1_2_t19_retout
+('mac_1_2_t19', 'mac_2_2_t19'): mac_1_2_t19_bout
+('mac_2_0_t19', 'mac_2_0_t20'): mac_2_0_t19_retout
+('mac_2_0_t19', 'mac_2_1_t19'): mac_2_0_t19_aout
+('mac_2_1_t19', 'mac_2_1_t20'): mac_2_1_t19_retout
+('mac_2_1_t19', 'mac_2_2_t19'): mac_2_1_t19_aout
+('mac_2_2_t19', 'mac_2_2_t20'): mac_2_2_t19_retout
+('mac_0_0_t20', 'mac_0_0_t21'): mac_0_0_t20_retout
+('mac_0_0_t20', 'mac_0_1_t20'): mac_0_0_t20_aout
+('mac_0_0_t20', 'mac_1_0_t20'): mac_0_0_t20_bout
+('mac_0_1_t20', 'mac_0_1_t21'): mac_0_1_t20_retout
+('mac_0_1_t20', 'mac_0_2_t20'): mac_0_1_t20_aout
+('mac_0_1_t20', 'mac_1_1_t20'): mac_0_1_t20_bout
+('mac_0_2_t20', 'mac_0_2_t21'): mac_0_2_t20_retout
+('mac_0_2_t20', 'mac_1_2_t20'): mac_0_2_t20_bout
+('mac_1_0_t20', 'mac_1_0_t21'): mac_1_0_t20_retout
+('mac_1_0_t20', 'mac_1_1_t20'): mac_1_0_t20_aout
+('mac_1_0_t20', 'mac_2_0_t20'): mac_1_0_t20_bout
+('mac_1_1_t20', 'mac_1_1_t21'): mac_1_1_t20_retout
+('mac_1_1_t20', 'mac_1_2_t20'): mac_1_1_t20_aout
+('mac_1_1_t20', 'mac_2_1_t20'): mac_1_1_t20_bout
+('mac_1_2_t20', 'mac_1_2_t21'): mac_1_2_t20_retout
+('mac_1_2_t20', 'mac_2_2_t20'): mac_1_2_t20_bout
+('mac_2_0_t20', 'mac_2_0_t21'): mac_2_0_t20_retout
+('mac_2_0_t20', 'mac_2_1_t20'): mac_2_0_t20_aout
+('mac_2_1_t20', 'mac_2_1_t21'): mac_2_1_t20_retout
+('mac_2_1_t20', 'mac_2_2_t20'): mac_2_1_t20_aout
+('mac_2_2_t20', 'mac_2_2_t21'): mac_2_2_t20_retout
+('mac_0_0_t21', 'mac_0_0_t22'): mac_0_0_t21_retout
+('mac_0_0_t21', 'mac_0_1_t21'): mac_0_0_t21_aout
+('mac_0_0_t21', 'mac_1_0_t21'): mac_0_0_t21_bout
+('mac_0_1_t21', 'mac_0_1_t22'): mac_0_1_t21_retout
+('mac_0_1_t21', 'mac_0_2_t21'): mac_0_1_t21_aout
+('mac_0_1_t21', 'mac_1_1_t21'): mac_0_1_t21_bout
+('mac_0_2_t21', 'mac_0_2_t22'): mac_0_2_t21_retout
+('mac_0_2_t21', 'mac_1_2_t21'): mac_0_2_t21_bout
+('mac_1_0_t21', 'mac_1_0_t22'): mac_1_0_t21_retout
+('mac_1_0_t21', 'mac_1_1_t21'): mac_1_0_t21_aout
+('mac_1_0_t21', 'mac_2_0_t21'): mac_1_0_t21_bout
+('mac_1_1_t21', 'mac_1_1_t22'): mac_1_1_t21_retout
+('mac_1_1_t21', 'mac_1_2_t21'): mac_1_1_t21_aout
+('mac_1_1_t21', 'mac_2_1_t21'): mac_1_1_t21_bout
+('mac_1_2_t21', 'mac_1_2_t22'): mac_1_2_t21_retout
+('mac_1_2_t21', 'mac_2_2_t21'): mac_1_2_t21_bout
+('mac_2_0_t21', 'mac_2_0_t22'): mac_2_0_t21_retout
+('mac_2_0_t21', 'mac_2_1_t21'): mac_2_0_t21_aout
+('mac_2_1_t21', 'mac_2_1_t22'): mac_2_1_t21_retout
+('mac_2_1_t21', 'mac_2_2_t21'): mac_2_1_t21_aout
+('mac_2_2_t21', 'mac_2_2_t22'): mac_2_2_t21_retout
+('mac_0_0_t22', 'mac_0_0_t23'): mac_0_0_t22_retout
+('mac_0_0_t22', 'mac_0_1_t22'): mac_0_0_t22_aout
+('mac_0_0_t22', 'mac_1_0_t22'): mac_0_0_t22_bout
+('mac_0_1_t22', 'mac_0_1_t23'): mac_0_1_t22_retout
+('mac_0_1_t22', 'mac_0_2_t22'): mac_0_1_t22_aout
+('mac_0_1_t22', 'mac_1_1_t22'): mac_0_1_t22_bout
+('mac_0_2_t22', 'mac_0_2_t23'): mac_0_2_t22_retout
+('mac_0_2_t22', 'mac_1_2_t22'): mac_0_2_t22_bout
+('mac_1_0_t22', 'mac_1_0_t23'): mac_1_0_t22_retout
+('mac_1_0_t22', 'mac_1_1_t22'): mac_1_0_t22_aout
+('mac_1_0_t22', 'mac_2_0_t22'): mac_1_0_t22_bout
+('mac_1_1_t22', 'mac_1_1_t23'): mac_1_1_t22_retout
+('mac_1_1_t22', 'mac_1_2_t22'): mac_1_1_t22_aout
+('mac_1_1_t22', 'mac_2_1_t22'): mac_1_1_t22_bout
+('mac_1_2_t22', 'mac_1_2_t23'): mac_1_2_t22_retout
+('mac_1_2_t22', 'mac_2_2_t22'): mac_1_2_t22_bout
+('mac_2_0_t22', 'mac_2_0_t23'): mac_2_0_t22_retout
+('mac_2_0_t22', 'mac_2_1_t22'): mac_2_0_t22_aout
+('mac_2_1_t22', 'mac_2_1_t23'): mac_2_1_t22_retout
+('mac_2_1_t22', 'mac_2_2_t22'): mac_2_1_t22_aout
+('mac_2_2_t22', 'mac_2_2_t23'): mac_2_2_t22_retout
+('mac_0_0_t23', 'arr_wt_0_0_t23'): mac_0_0_t23_retout
+('mac_0_0_t23', 'mac_0_1_t23'): mac_0_0_t23_aout
+('mac_0_0_t23', 'mac_1_0_t23'): mac_0_0_t23_bout
+('arr_wt_0_0_t23', None): arr_wt_0_0_t23_retout
+('mac_0_1_t23', 'arr_wt_0_1_t23'): mac_0_1_t23_retout
+('mac_0_1_t23', 'mac_0_2_t23'): mac_0_1_t23_aout
+('mac_0_1_t23', 'mac_1_1_t23'): mac_0_1_t23_bout
+('arr_wt_0_1_t23', None): arr_wt_0_1_t23_retout
+('mac_0_2_t23', 'arr_wt_0_2_t23'): mac_0_2_t23_retout
+('mac_0_2_t23', 'mac_1_2_t23'): mac_0_2_t23_bout
+('arr_wt_0_2_t23', None): arr_wt_0_2_t23_retout
+('mac_1_0_t23', 'arr_wt_1_0_t23'): mac_1_0_t23_retout
+('mac_1_0_t23', 'mac_1_1_t23'): mac_1_0_t23_aout
+('mac_1_0_t23', 'mac_2_0_t23'): mac_1_0_t23_bout
+('arr_wt_1_0_t23', None): arr_wt_1_0_t23_retout
+('mac_1_1_t23', 'arr_wt_1_1_t23'): mac_1_1_t23_retout
+('mac_1_1_t23', 'mac_1_2_t23'): mac_1_1_t23_aout
+('mac_1_1_t23', 'mac_2_1_t23'): mac_1_1_t23_bout
+('arr_wt_1_1_t23', None): arr_wt_1_1_t23_retout
+('mac_1_2_t23', 'arr_wt_1_2_t23'): mac_1_2_t23_retout
+('mac_1_2_t23', 'mac_2_2_t23'): mac_1_2_t23_bout
+('arr_wt_1_2_t23', None): arr_wt_1_2_t23_retout
+('mac_2_0_t23', 'arr_wt_2_0_t23'): mac_2_0_t23_retout
+('mac_2_0_t23', 'mac_2_1_t23'): mac_2_0_t23_aout
+('arr_wt_2_0_t23', None): arr_wt_2_0_t23_retout
+('mac_2_1_t23', 'arr_wt_2_1_t23'): mac_2_1_t23_retout
+('mac_2_1_t23', 'mac_2_2_t23'): mac_2_1_t23_aout
+('arr_wt_2_1_t23', None): arr_wt_2_1_t23_retout
+('mac_2_2_t23', 'arr_wt_2_2_t23'): mac_2_2_t23_retout
+('arr_wt_2_2_t23', None): arr_wt_2_2_t23_retout
+
+Hardware architecture graph (interconnection of IPs) ------------------------------------------------------------
+
+
+row_reader_0: ['mac_inst_0_0']
+col_reader_0: ['mac_inst_0_0']
+row_reader_1: ['mac_inst_1_0']
+col_reader_1: ['mac_inst_0_1']
+row_reader_2: ['mac_inst_2_0']
+col_reader_2: ['mac_inst_0_2']
+mac_inst_0_0: ['mac_inst_0_0', 'mac_inst_0_1', 'mac_inst_1_0', 'arr_writer_0_0']
+mac_inst_0_1: ['mac_inst_0_1', 'mac_inst_0_2', 'mac_inst_1_1', 'arr_writer_0_1']
+mac_inst_0_2: ['mac_inst_0_2', 'mac_inst_1_2', 'arr_writer_0_2']
+mac_inst_1_0: ['mac_inst_1_0', 'mac_inst_1_1', 'mac_inst_2_0', 'arr_writer_1_0']
+mac_inst_1_1: ['mac_inst_1_1', 'mac_inst_1_2', 'mac_inst_2_1', 'arr_writer_1_1']
+mac_inst_1_2: ['mac_inst_1_2', 'mac_inst_2_2', 'arr_writer_1_2']
+mac_inst_2_0: ['mac_inst_2_0', 'mac_inst_2_1', 'arr_writer_2_0']
+mac_inst_2_1: ['mac_inst_2_1', 'mac_inst_2_2', 'arr_writer_2_1']
+mac_inst_2_2: ['mac_inst_2_2', 'arr_writer_2_2']
+a_buf_0: ['row_reader_0']
+b_buf_0: ['col_reader_0']
+a_buf_1: ['row_reader_1']
+b_buf_1: ['col_reader_1']
+a_buf_2: ['row_reader_2']
+b_buf_2: ['col_reader_2']
+arr_writer_0_0: ['ret_buf_0_0']
+arr_writer_0_1: ['ret_buf_0_1']
+arr_writer_0_2: ['ret_buf_0_2']
+arr_writer_1_0: ['ret_buf_1_0']
+arr_writer_1_1: ['ret_buf_1_1']
+arr_writer_1_2: ['ret_buf_1_2']
+arr_writer_2_0: ['ret_buf_2_0']
+arr_writer_2_1: ['ret_buf_2_1']
+arr_writer_2_2: ['ret_buf_2_2']
+
+Workload to architecture mapping dictionary ------------------------------------------------------------
+
+
+a_buf_0: ['row_rd_0_t0', 'row_rd_0_t1', 'row_rd_0_t2', 'row_rd_0_t3', 'row_rd_0_t4', 'row_rd_0_t5', 'row_rd_0_t6', 'row_rd_0_t7', 'row_rd_0_t8', 'row_rd_0_t9', 'row_rd_0_t10', 'row_rd_0_t11', 'row_rd_0_t12', 'row_rd_0_t13', 'row_rd_0_t14', 'row_rd_0_t15', 'row_rd_0_t16', 'row_rd_0_t17', 'row_rd_0_t18', 'row_rd_0_t19', 'row_rd_0_t20', 'row_rd_0_t21', 'row_rd_0_t22', 'row_rd_0_t23']
+row_reader_0: ['row_rd_0_t0', 'row_rd_0_t1', 'row_rd_0_t2', 'row_rd_0_t3', 'row_rd_0_t4', 'row_rd_0_t5', 'row_rd_0_t6', 'row_rd_0_t7', 'row_rd_0_t8', 'row_rd_0_t9', 'row_rd_0_t10', 'row_rd_0_t11', 'row_rd_0_t12', 'row_rd_0_t13', 'row_rd_0_t14', 'row_rd_0_t15', 'row_rd_0_t16', 'row_rd_0_t17', 'row_rd_0_t18', 'row_rd_0_t19', 'row_rd_0_t20', 'row_rd_0_t21', 'row_rd_0_t22', 'row_rd_0_t23']
+b_buf_0: ['col_rd_0_t0', 'col_rd_0_t1', 'col_rd_0_t2', 'col_rd_0_t3', 'col_rd_0_t4', 'col_rd_0_t5', 'col_rd_0_t6', 'col_rd_0_t7', 'col_rd_0_t8', 'col_rd_0_t9', 'col_rd_0_t10', 'col_rd_0_t11', 'col_rd_0_t12', 'col_rd_0_t13', 'col_rd_0_t14', 'col_rd_0_t15', 'col_rd_0_t16', 'col_rd_0_t17', 'col_rd_0_t18', 'col_rd_0_t19', 'col_rd_0_t20', 'col_rd_0_t21', 'col_rd_0_t22', 'col_rd_0_t23']
+col_reader_0: ['col_rd_0_t0', 'col_rd_0_t1', 'col_rd_0_t2', 'col_rd_0_t3', 'col_rd_0_t4', 'col_rd_0_t5', 'col_rd_0_t6', 'col_rd_0_t7', 'col_rd_0_t8', 'col_rd_0_t9', 'col_rd_0_t10', 'col_rd_0_t11', 'col_rd_0_t12', 'col_rd_0_t13', 'col_rd_0_t14', 'col_rd_0_t15', 'col_rd_0_t16', 'col_rd_0_t17', 'col_rd_0_t18', 'col_rd_0_t19', 'col_rd_0_t20', 'col_rd_0_t21', 'col_rd_0_t22', 'col_rd_0_t23']
+a_buf_1: ['row_rd_1_t0', 'row_rd_1_t1', 'row_rd_1_t2', 'row_rd_1_t3', 'row_rd_1_t4', 'row_rd_1_t5', 'row_rd_1_t6', 'row_rd_1_t7', 'row_rd_1_t8', 'row_rd_1_t9', 'row_rd_1_t10', 'row_rd_1_t11', 'row_rd_1_t12', 'row_rd_1_t13', 'row_rd_1_t14', 'row_rd_1_t15', 'row_rd_1_t16', 'row_rd_1_t17', 'row_rd_1_t18', 'row_rd_1_t19', 'row_rd_1_t20', 'row_rd_1_t21', 'row_rd_1_t22', 'row_rd_1_t23']
+row_reader_1: ['row_rd_1_t0', 'row_rd_1_t1', 'row_rd_1_t2', 'row_rd_1_t3', 'row_rd_1_t4', 'row_rd_1_t5', 'row_rd_1_t6', 'row_rd_1_t7', 'row_rd_1_t8', 'row_rd_1_t9', 'row_rd_1_t10', 'row_rd_1_t11', 'row_rd_1_t12', 'row_rd_1_t13', 'row_rd_1_t14', 'row_rd_1_t15', 'row_rd_1_t16', 'row_rd_1_t17', 'row_rd_1_t18', 'row_rd_1_t19', 'row_rd_1_t20', 'row_rd_1_t21', 'row_rd_1_t22', 'row_rd_1_t23']
+b_buf_1: ['col_rd_1_t0', 'col_rd_1_t1', 'col_rd_1_t2', 'col_rd_1_t3', 'col_rd_1_t4', 'col_rd_1_t5', 'col_rd_1_t6', 'col_rd_1_t7', 'col_rd_1_t8', 'col_rd_1_t9', 'col_rd_1_t10', 'col_rd_1_t11', 'col_rd_1_t12', 'col_rd_1_t13', 'col_rd_1_t14', 'col_rd_1_t15', 'col_rd_1_t16', 'col_rd_1_t17', 'col_rd_1_t18', 'col_rd_1_t19', 'col_rd_1_t20', 'col_rd_1_t21', 'col_rd_1_t22', 'col_rd_1_t23']
+col_reader_1: ['col_rd_1_t0', 'col_rd_1_t1', 'col_rd_1_t2', 'col_rd_1_t3', 'col_rd_1_t4', 'col_rd_1_t5', 'col_rd_1_t6', 'col_rd_1_t7', 'col_rd_1_t8', 'col_rd_1_t9', 'col_rd_1_t10', 'col_rd_1_t11', 'col_rd_1_t12', 'col_rd_1_t13', 'col_rd_1_t14', 'col_rd_1_t15', 'col_rd_1_t16', 'col_rd_1_t17', 'col_rd_1_t18', 'col_rd_1_t19', 'col_rd_1_t20', 'col_rd_1_t21', 'col_rd_1_t22', 'col_rd_1_t23']
+a_buf_2: ['row_rd_2_t0', 'row_rd_2_t1', 'row_rd_2_t2', 'row_rd_2_t3', 'row_rd_2_t4', 'row_rd_2_t5', 'row_rd_2_t6', 'row_rd_2_t7', 'row_rd_2_t8', 'row_rd_2_t9', 'row_rd_2_t10', 'row_rd_2_t11', 'row_rd_2_t12', 'row_rd_2_t13', 'row_rd_2_t14', 'row_rd_2_t15', 'row_rd_2_t16', 'row_rd_2_t17', 'row_rd_2_t18', 'row_rd_2_t19', 'row_rd_2_t20', 'row_rd_2_t21', 'row_rd_2_t22', 'row_rd_2_t23']
+row_reader_2: ['row_rd_2_t0', 'row_rd_2_t1', 'row_rd_2_t2', 'row_rd_2_t3', 'row_rd_2_t4', 'row_rd_2_t5', 'row_rd_2_t6', 'row_rd_2_t7', 'row_rd_2_t8', 'row_rd_2_t9', 'row_rd_2_t10', 'row_rd_2_t11', 'row_rd_2_t12', 'row_rd_2_t13', 'row_rd_2_t14', 'row_rd_2_t15', 'row_rd_2_t16', 'row_rd_2_t17', 'row_rd_2_t18', 'row_rd_2_t19', 'row_rd_2_t20', 'row_rd_2_t21', 'row_rd_2_t22', 'row_rd_2_t23']
+b_buf_2: ['col_rd_2_t0', 'col_rd_2_t1', 'col_rd_2_t2', 'col_rd_2_t3', 'col_rd_2_t4', 'col_rd_2_t5', 'col_rd_2_t6', 'col_rd_2_t7', 'col_rd_2_t8', 'col_rd_2_t9', 'col_rd_2_t10', 'col_rd_2_t11', 'col_rd_2_t12', 'col_rd_2_t13', 'col_rd_2_t14', 'col_rd_2_t15', 'col_rd_2_t16', 'col_rd_2_t17', 'col_rd_2_t18', 'col_rd_2_t19', 'col_rd_2_t20', 'col_rd_2_t21', 'col_rd_2_t22', 'col_rd_2_t23']
+col_reader_2: ['col_rd_2_t0', 'col_rd_2_t1', 'col_rd_2_t2', 'col_rd_2_t3', 'col_rd_2_t4', 'col_rd_2_t5', 'col_rd_2_t6', 'col_rd_2_t7', 'col_rd_2_t8', 'col_rd_2_t9', 'col_rd_2_t10', 'col_rd_2_t11', 'col_rd_2_t12', 'col_rd_2_t13', 'col_rd_2_t14', 'col_rd_2_t15', 'col_rd_2_t16', 'col_rd_2_t17', 'col_rd_2_t18', 'col_rd_2_t19', 'col_rd_2_t20', 'col_rd_2_t21', 'col_rd_2_t22', 'col_rd_2_t23']
+mac_inst_0_0: ['mac_0_0_t0', 'mac_0_0_t1', 'mac_0_0_t2', 'mac_0_0_t3', 'mac_0_0_t4', 'mac_0_0_t5', 'mac_0_0_t6', 'mac_0_0_t7', 'mac_0_0_t8', 'mac_0_0_t9', 'mac_0_0_t10', 'mac_0_0_t11', 'mac_0_0_t12', 'mac_0_0_t13', 'mac_0_0_t14', 'mac_0_0_t15', 'mac_0_0_t16', 'mac_0_0_t17', 'mac_0_0_t18', 'mac_0_0_t19', 'mac_0_0_t20', 'mac_0_0_t21', 'mac_0_0_t22', 'mac_0_0_t23']
+mac_inst_0_1: ['mac_0_1_t0', 'mac_0_1_t1', 'mac_0_1_t2', 'mac_0_1_t3', 'mac_0_1_t4', 'mac_0_1_t5', 'mac_0_1_t6', 'mac_0_1_t7', 'mac_0_1_t8', 'mac_0_1_t9', 'mac_0_1_t10', 'mac_0_1_t11', 'mac_0_1_t12', 'mac_0_1_t13', 'mac_0_1_t14', 'mac_0_1_t15', 'mac_0_1_t16', 'mac_0_1_t17', 'mac_0_1_t18', 'mac_0_1_t19', 'mac_0_1_t20', 'mac_0_1_t21', 'mac_0_1_t22', 'mac_0_1_t23']
+mac_inst_0_2: ['mac_0_2_t0', 'mac_0_2_t1', 'mac_0_2_t2', 'mac_0_2_t3', 'mac_0_2_t4', 'mac_0_2_t5', 'mac_0_2_t6', 'mac_0_2_t7', 'mac_0_2_t8', 'mac_0_2_t9', 'mac_0_2_t10', 'mac_0_2_t11', 'mac_0_2_t12', 'mac_0_2_t13', 'mac_0_2_t14', 'mac_0_2_t15', 'mac_0_2_t16', 'mac_0_2_t17', 'mac_0_2_t18', 'mac_0_2_t19', 'mac_0_2_t20', 'mac_0_2_t21', 'mac_0_2_t22', 'mac_0_2_t23']
+mac_inst_1_0: ['mac_1_0_t0', 'mac_1_0_t1', 'mac_1_0_t2', 'mac_1_0_t3', 'mac_1_0_t4', 'mac_1_0_t5', 'mac_1_0_t6', 'mac_1_0_t7', 'mac_1_0_t8', 'mac_1_0_t9', 'mac_1_0_t10', 'mac_1_0_t11', 'mac_1_0_t12', 'mac_1_0_t13', 'mac_1_0_t14', 'mac_1_0_t15', 'mac_1_0_t16', 'mac_1_0_t17', 'mac_1_0_t18', 'mac_1_0_t19', 'mac_1_0_t20', 'mac_1_0_t21', 'mac_1_0_t22', 'mac_1_0_t23']
+mac_inst_1_1: ['mac_1_1_t0', 'mac_1_1_t1', 'mac_1_1_t2', 'mac_1_1_t3', 'mac_1_1_t4', 'mac_1_1_t5', 'mac_1_1_t6', 'mac_1_1_t7', 'mac_1_1_t8', 'mac_1_1_t9', 'mac_1_1_t10', 'mac_1_1_t11', 'mac_1_1_t12', 'mac_1_1_t13', 'mac_1_1_t14', 'mac_1_1_t15', 'mac_1_1_t16', 'mac_1_1_t17', 'mac_1_1_t18', 'mac_1_1_t19', 'mac_1_1_t20', 'mac_1_1_t21', 'mac_1_1_t22', 'mac_1_1_t23']
+mac_inst_1_2: ['mac_1_2_t0', 'mac_1_2_t1', 'mac_1_2_t2', 'mac_1_2_t3', 'mac_1_2_t4', 'mac_1_2_t5', 'mac_1_2_t6', 'mac_1_2_t7', 'mac_1_2_t8', 'mac_1_2_t9', 'mac_1_2_t10', 'mac_1_2_t11', 'mac_1_2_t12', 'mac_1_2_t13', 'mac_1_2_t14', 'mac_1_2_t15', 'mac_1_2_t16', 'mac_1_2_t17', 'mac_1_2_t18', 'mac_1_2_t19', 'mac_1_2_t20', 'mac_1_2_t21', 'mac_1_2_t22', 'mac_1_2_t23']
+mac_inst_2_0: ['mac_2_0_t0', 'mac_2_0_t1', 'mac_2_0_t2', 'mac_2_0_t3', 'mac_2_0_t4', 'mac_2_0_t5', 'mac_2_0_t6', 'mac_2_0_t7', 'mac_2_0_t8', 'mac_2_0_t9', 'mac_2_0_t10', 'mac_2_0_t11', 'mac_2_0_t12', 'mac_2_0_t13', 'mac_2_0_t14', 'mac_2_0_t15', 'mac_2_0_t16', 'mac_2_0_t17', 'mac_2_0_t18', 'mac_2_0_t19', 'mac_2_0_t20', 'mac_2_0_t21', 'mac_2_0_t22', 'mac_2_0_t23']
+mac_inst_2_1: ['mac_2_1_t0', 'mac_2_1_t1', 'mac_2_1_t2', 'mac_2_1_t3', 'mac_2_1_t4', 'mac_2_1_t5', 'mac_2_1_t6', 'mac_2_1_t7', 'mac_2_1_t8', 'mac_2_1_t9', 'mac_2_1_t10', 'mac_2_1_t11', 'mac_2_1_t12', 'mac_2_1_t13', 'mac_2_1_t14', 'mac_2_1_t15', 'mac_2_1_t16', 'mac_2_1_t17', 'mac_2_1_t18', 'mac_2_1_t19', 'mac_2_1_t20', 'mac_2_1_t21', 'mac_2_1_t22', 'mac_2_1_t23']
+mac_inst_2_2: ['mac_2_2_t0', 'mac_2_2_t1', 'mac_2_2_t2', 'mac_2_2_t3', 'mac_2_2_t4', 'mac_2_2_t5', 'mac_2_2_t6', 'mac_2_2_t7', 'mac_2_2_t8', 'mac_2_2_t9', 'mac_2_2_t10', 'mac_2_2_t11', 'mac_2_2_t12', 'mac_2_2_t13', 'mac_2_2_t14', 'mac_2_2_t15', 'mac_2_2_t16', 'mac_2_2_t17', 'mac_2_2_t18', 'mac_2_2_t19', 'mac_2_2_t20', 'mac_2_2_t21', 'mac_2_2_t22', 'mac_2_2_t23']
+arr_writer_0_0: ['arr_wt_0_0_t5', 'arr_wt_0_0_t11', 'arr_wt_0_0_t17', 'arr_wt_0_0_t23']
+ret_buf_0_0: ['arr_wt_0_0_t5', 'arr_wt_0_0_t11', 'arr_wt_0_0_t17', 'arr_wt_0_0_t23']
+arr_writer_0_1: ['arr_wt_0_1_t5', 'arr_wt_0_1_t11', 'arr_wt_0_1_t17', 'arr_wt_0_1_t23']
+ret_buf_0_1: ['arr_wt_0_1_t5', 'arr_wt_0_1_t11', 'arr_wt_0_1_t17', 'arr_wt_0_1_t23']
+arr_writer_0_2: ['arr_wt_0_2_t5', 'arr_wt_0_2_t11', 'arr_wt_0_2_t17', 'arr_wt_0_2_t23']
+ret_buf_0_2: ['arr_wt_0_2_t5', 'arr_wt_0_2_t11', 'arr_wt_0_2_t17', 'arr_wt_0_2_t23']
+arr_writer_1_0: ['arr_wt_1_0_t5', 'arr_wt_1_0_t11', 'arr_wt_1_0_t17', 'arr_wt_1_0_t23']
+ret_buf_1_0: ['arr_wt_1_0_t5', 'arr_wt_1_0_t11', 'arr_wt_1_0_t17', 'arr_wt_1_0_t23']
+arr_writer_1_1: ['arr_wt_1_1_t5', 'arr_wt_1_1_t11', 'arr_wt_1_1_t17', 'arr_wt_1_1_t23']
+ret_buf_1_1: ['arr_wt_1_1_t5', 'arr_wt_1_1_t11', 'arr_wt_1_1_t17', 'arr_wt_1_1_t23']
+arr_writer_1_2: ['arr_wt_1_2_t5', 'arr_wt_1_2_t11', 'arr_wt_1_2_t17', 'arr_wt_1_2_t23']
+ret_buf_1_2: ['arr_wt_1_2_t5', 'arr_wt_1_2_t11', 'arr_wt_1_2_t17', 'arr_wt_1_2_t23']
+arr_writer_2_0: ['arr_wt_2_0_t5', 'arr_wt_2_0_t11', 'arr_wt_2_0_t17', 'arr_wt_2_0_t23']
+ret_buf_2_0: ['arr_wt_2_0_t5', 'arr_wt_2_0_t11', 'arr_wt_2_0_t17', 'arr_wt_2_0_t23']
+arr_writer_2_1: ['arr_wt_2_1_t5', 'arr_wt_2_1_t11', 'arr_wt_2_1_t17', 'arr_wt_2_1_t23']
+ret_buf_2_1: ['arr_wt_2_1_t5', 'arr_wt_2_1_t11', 'arr_wt_2_1_t17', 'arr_wt_2_1_t23']
+arr_writer_2_2: ['arr_wt_2_2_t5', 'arr_wt_2_2_t11', 'arr_wt_2_2_t17', 'arr_wt_2_2_t23']
+ret_buf_2_2: ['arr_wt_2_2_t5', 'arr_wt_2_2_t11', 'arr_wt_2_2_t17', 'arr_wt_2_2_t23']
+
+Simulation log ------------------------------------------------------------
+
+
+------------------------------------------------------------cycle: 0------------------------------------------------------------
+ip_nodes remaining: 396
+
+executing: row_rd_0_t0
+using: a_buf_0
+
+executing: col_rd_0_t0
+using: b_buf_0
+
+executing: row_rd_1_t0
+using: a_buf_1
+
+executing: col_rd_1_t0
+using: b_buf_1
+
+executing: row_rd_2_t0
+using: a_buf_2
+
+executing: col_rd_2_t0
+using: b_buf_2
+
+------------------------------------------------------------cycle: 1------------------------------------------------------------
+ip_nodes remaining: 396
+
+executing: row_rd_0_t0
+using: row_reader_0
+remove done ip_node: row_rd_0_t0
+
+
+executing: col_rd_0_t0
+using: col_reader_0
+remove done ip_node: col_rd_0_t0
+
+
+executing: row_rd_1_t0
+using: row_reader_1
+remove done ip_node: row_rd_1_t0
+
+
+executing: col_rd_1_t0
+using: col_reader_1
+remove done ip_node: col_rd_1_t0
+
+
+executing: row_rd_2_t0
+using: row_reader_2
+remove done ip_node: row_rd_2_t0
+
+
+executing: col_rd_2_t0
+using: col_reader_2
+remove done ip_node: col_rd_2_t0
+
+
+executing: row_rd_0_t1
+using: a_buf_0
+
+executing: col_rd_0_t1
+using: b_buf_0
+
+executing: row_rd_1_t1
+using: a_buf_1
+
+executing: col_rd_1_t1
+using: b_buf_1
+
+executing: row_rd_2_t1
+using: a_buf_2
+
+executing: col_rd_2_t1
+using: b_buf_2
+
+------------------------------------------------------------cycle: 2------------------------------------------------------------
+ip_nodes remaining: 390
+
+executing: row_rd_0_t1
+using: row_reader_0
+remove done ip_node: row_rd_0_t1
+
+
+executing: col_rd_0_t1
+using: col_reader_0
+remove done ip_node: col_rd_0_t1
+
+
+executing: row_rd_1_t1
+using: row_reader_1
+remove done ip_node: row_rd_1_t1
+
+
+executing: col_rd_1_t1
+using: col_reader_1
+remove done ip_node: col_rd_1_t1
+
+
+executing: row_rd_2_t1
+using: row_reader_2
+remove done ip_node: row_rd_2_t1
+
+
+executing: col_rd_2_t1
+using: col_reader_2
+remove done ip_node: col_rd_2_t1
+
+
+executing: row_rd_0_t2
+using: a_buf_0
+
+executing: col_rd_0_t2
+using: b_buf_0
+
+executing: row_rd_1_t2
+using: a_buf_1
+
+executing: col_rd_1_t2
+using: b_buf_1
+
+executing: row_rd_2_t2
+using: a_buf_2
+
+executing: col_rd_2_t2
+using: b_buf_2
+
+executing: mac_0_0_t0
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t0_retout=[0.58617956]
+remove done ip_node: mac_0_0_t0
+
+
+------------------------------------------------------------cycle: 3------------------------------------------------------------
+ip_nodes remaining: 383
+
+executing: row_rd_0_t2
+using: row_reader_0
+remove done ip_node: row_rd_0_t2
+
+
+executing: col_rd_0_t2
+using: col_reader_0
+remove done ip_node: col_rd_0_t2
+
+
+executing: row_rd_1_t2
+using: row_reader_1
+remove done ip_node: row_rd_1_t2
+
+
+executing: col_rd_1_t2
+using: col_reader_1
+remove done ip_node: col_rd_1_t2
+
+
+executing: row_rd_2_t2
+using: row_reader_2
+remove done ip_node: row_rd_2_t2
+
+
+executing: col_rd_2_t2
+using: col_reader_2
+remove done ip_node: col_rd_2_t2
+
+
+executing: row_rd_0_t3
+using: a_buf_0
+
+executing: col_rd_0_t3
+using: b_buf_0
+
+executing: row_rd_1_t3
+using: a_buf_1
+
+executing: col_rd_1_t3
+using: b_buf_1
+
+executing: row_rd_2_t3
+using: a_buf_2
+
+executing: col_rd_2_t3
+using: b_buf_2
+
+executing: mac_0_1_t0
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t0_retout=[0.10219541]
+remove done ip_node: mac_0_1_t0
+
+
+executing: mac_1_0_t0
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t0_retout=[0.39287532]
+remove done ip_node: mac_1_0_t0
+
+
+executing: mac_0_0_t1
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t1_retout=[0.61904954]
+remove done ip_node: mac_0_0_t1
+
+
+------------------------------------------------------------cycle: 4------------------------------------------------------------
+ip_nodes remaining: 374
+
+executing: row_rd_0_t3
+using: row_reader_0
+remove done ip_node: row_rd_0_t3
+
+
+executing: col_rd_0_t3
+using: col_reader_0
+remove done ip_node: col_rd_0_t3
+
+
+executing: row_rd_1_t3
+using: row_reader_1
+remove done ip_node: row_rd_1_t3
+
+
+executing: col_rd_1_t3
+using: col_reader_1
+remove done ip_node: col_rd_1_t3
+
+
+executing: row_rd_2_t3
+using: row_reader_2
+remove done ip_node: row_rd_2_t3
+
+
+executing: col_rd_2_t3
+using: col_reader_2
+remove done ip_node: col_rd_2_t3
+
+
+executing: row_rd_0_t4
+using: a_buf_0
+
+executing: col_rd_0_t4
+using: b_buf_0
+
+executing: row_rd_1_t4
+using: a_buf_1
+
+executing: col_rd_1_t4
+using: b_buf_1
+
+executing: row_rd_2_t4
+using: a_buf_2
+
+executing: col_rd_2_t4
+using: b_buf_2
+
+executing: mac_0_2_t0
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t0_retout=[0.60661147]
+remove done ip_node: mac_0_2_t0
+
+
+executing: mac_1_1_t0
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t0_retout=[0.06849446]
+remove done ip_node: mac_1_1_t0
+
+
+executing: mac_2_0_t0
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t0_retout=[0.63714992]
+remove done ip_node: mac_2_0_t0
+
+
+executing: mac_0_1_t1
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t1_retout=[0.26996017]
+remove done ip_node: mac_0_1_t1
+
+
+executing: mac_1_0_t1
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t1_retout=[0.46212208]
+remove done ip_node: mac_1_0_t1
+
+
+executing: mac_0_0_t2
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t2_retout=[0.64225932]
+remove done ip_node: mac_0_0_t2
+
+
+------------------------------------------------------------cycle: 5------------------------------------------------------------
+ip_nodes remaining: 362
+
+executing: row_rd_0_t4
+using: row_reader_0
+remove done ip_node: row_rd_0_t4
+
+
+executing: col_rd_0_t4
+using: col_reader_0
+remove done ip_node: col_rd_0_t4
+
+
+executing: row_rd_1_t4
+using: row_reader_1
+remove done ip_node: row_rd_1_t4
+
+
+executing: col_rd_1_t4
+using: col_reader_1
+remove done ip_node: col_rd_1_t4
+
+
+executing: row_rd_2_t4
+using: row_reader_2
+remove done ip_node: row_rd_2_t4
+
+
+executing: col_rd_2_t4
+using: col_reader_2
+remove done ip_node: col_rd_2_t4
+
+
+executing: row_rd_0_t5
+using: a_buf_0
+
+executing: col_rd_0_t5
+using: b_buf_0
+
+executing: row_rd_1_t5
+using: a_buf_1
+
+executing: col_rd_1_t5
+using: b_buf_1
+
+executing: row_rd_2_t5
+using: a_buf_2
+
+executing: col_rd_2_t5
+using: b_buf_2
+
+executing: mac_1_2_t0
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t0_retout=[0.40656941]
+remove done ip_node: mac_1_2_t0
+
+
+executing: mac_2_1_t0
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t0_retout=[0.11108166]
+remove done ip_node: mac_2_1_t0
+
+
+executing: mac_0_2_t1
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t1_retout=[0.83260317]
+remove done ip_node: mac_0_2_t1
+
+
+executing: mac_1_1_t1
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t1_retout=[0.4219224]
+remove done ip_node: mac_1_1_t1
+
+
+executing: mac_2_0_t1
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t1_retout=[0.66587675]
+remove done ip_node: mac_2_0_t1
+
+
+executing: mac_0_1_t2
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t2_retout=[0.80337167]
+remove done ip_node: mac_0_1_t2
+
+
+executing: mac_1_0_t2
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t2_retout=[0.47752864]
+remove done ip_node: mac_1_0_t2
+
+
+executing: mac_0_0_t3
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t3_retout=[1.01508093]
+remove done ip_node: mac_0_0_t3
+
+
+------------------------------------------------------------cycle: 6------------------------------------------------------------
+ip_nodes remaining: 348
+
+executing: row_rd_0_t5
+using: row_reader_0
+remove done ip_node: row_rd_0_t5
+
+
+executing: col_rd_0_t5
+using: col_reader_0
+remove done ip_node: col_rd_0_t5
+
+
+executing: row_rd_1_t5
+using: row_reader_1
+remove done ip_node: row_rd_1_t5
+
+
+executing: col_rd_1_t5
+using: col_reader_1
+remove done ip_node: col_rd_1_t5
+
+
+executing: row_rd_2_t5
+using: row_reader_2
+remove done ip_node: row_rd_2_t5
+
+
+executing: col_rd_2_t5
+using: col_reader_2
+remove done ip_node: col_rd_2_t5
+
+
+executing: row_rd_0_t6
+using: a_buf_0
+
+executing: col_rd_0_t6
+using: b_buf_0
+
+executing: row_rd_1_t6
+using: a_buf_1
+
+executing: col_rd_1_t6
+using: b_buf_1
+
+executing: row_rd_2_t6
+using: a_buf_2
+
+executing: col_rd_2_t6
+using: b_buf_2
+
+executing: mac_2_2_t0
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t0_retout=[0.65935846]
+remove done ip_node: mac_2_2_t0
+
+
+executing: mac_1_2_t1
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t1_retout=[0.88266331]
+remove done ip_node: mac_1_2_t1
+
+
+executing: mac_2_1_t1
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t1_retout=[0.25770026]
+remove done ip_node: mac_2_1_t1
+
+
+executing: mac_0_2_t2
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t2_retout=[1.26043344]
+remove done ip_node: mac_0_2_t2
+
+
+executing: mac_1_1_t2
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t2_retout=[0.77599874]
+remove done ip_node: mac_1_1_t2
+
+
+executing: mac_2_0_t2
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t2_retout=[0.680118]
+remove done ip_node: mac_2_0_t2
+
+
+executing: mac_0_1_t3
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t3_retout=[1.01368343]
+remove done ip_node: mac_0_1_t3
+
+
+executing: mac_1_0_t3
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t3_retout=[1.01114501]
+remove done ip_node: mac_1_0_t3
+
+
+executing: mac_0_0_t4
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t4_retout=[1.26401522]
+remove done ip_node: mac_0_0_t4
+
+
+------------------------------------------------------------cycle: 7------------------------------------------------------------
+ip_nodes remaining: 333
+
+executing: row_rd_0_t6
+using: row_reader_0
+remove done ip_node: row_rd_0_t6
+
+
+executing: col_rd_0_t6
+using: col_reader_0
+remove done ip_node: col_rd_0_t6
+
+
+executing: row_rd_1_t6
+using: row_reader_1
+remove done ip_node: row_rd_1_t6
+
+
+executing: col_rd_1_t6
+using: col_reader_1
+remove done ip_node: col_rd_1_t6
+
+
+executing: row_rd_2_t6
+using: row_reader_2
+remove done ip_node: row_rd_2_t6
+
+
+executing: col_rd_2_t6
+using: col_reader_2
+remove done ip_node: col_rd_2_t6
+
+
+executing: row_rd_0_t7
+using: a_buf_0
+
+executing: col_rd_0_t7
+using: b_buf_0
+
+executing: row_rd_1_t7
+using: a_buf_1
+
+executing: col_rd_1_t7
+using: b_buf_1
+
+executing: row_rd_2_t7
+using: a_buf_2
+
+executing: col_rd_2_t7
+using: b_buf_2
+
+executing: mac_2_2_t1
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t1_retout=[0.85686471]
+remove done ip_node: mac_2_2_t1
+
+
+executing: mac_1_2_t2
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t2_retout=[1.16665528]
+remove done ip_node: mac_1_2_t2
+
+
+executing: mac_2_1_t2
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t2_retout=[0.58499524]
+remove done ip_node: mac_2_1_t2
+
+
+executing: mac_0_2_t3
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t3_retout=[1.52802878]
+remove done ip_node: mac_0_2_t3
+
+
+executing: mac_1_1_t3
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t3_retout=[1.07701615]
+remove done ip_node: mac_1_1_t3
+
+
+executing: mac_2_0_t3
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t3_retout=[0.76869329]
+remove done ip_node: mac_2_0_t3
+
+
+executing: mac_0_1_t4
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t4_retout=[1.17823882]
+remove done ip_node: mac_0_1_t4
+
+
+executing: mac_1_0_t4
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t4_retout=[1.14368698]
+remove done ip_node: mac_1_0_t4
+
+
+executing: mac_0_0_t5
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t5_retout=[1.7016198]
+remove done ip_node: mac_0_0_t5
+
+
+------------------------------------------------------------cycle: 8------------------------------------------------------------
+ip_nodes remaining: 318
+
+executing: row_rd_0_t7
+using: row_reader_0
+remove done ip_node: row_rd_0_t7
+
+
+executing: col_rd_0_t7
+using: col_reader_0
+remove done ip_node: col_rd_0_t7
+
+
+executing: row_rd_1_t7
+using: row_reader_1
+remove done ip_node: row_rd_1_t7
+
+
+executing: col_rd_1_t7
+using: col_reader_1
+remove done ip_node: col_rd_1_t7
+
+
+executing: row_rd_2_t7
+using: row_reader_2
+remove done ip_node: row_rd_2_t7
+
+
+executing: col_rd_2_t7
+using: col_reader_2
+remove done ip_node: col_rd_2_t7
+
+
+executing: row_rd_0_t8
+using: a_buf_0
+
+executing: col_rd_0_t8
+using: b_buf_0
+
+executing: row_rd_1_t8
+using: a_buf_1
+
+executing: col_rd_1_t8
+using: b_buf_1
+
+executing: row_rd_2_t8
+using: a_buf_2
+
+executing: col_rd_2_t8
+using: b_buf_2
+
+executing: mac_2_2_t2
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t2_retout=[1.11937629]
+remove done ip_node: mac_2_2_t2
+
+
+executing: mac_1_2_t3
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t3_retout=[1.54966218]
+remove done ip_node: mac_1_2_t3
+
+
+executing: mac_2_1_t3
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t3_retout=[0.6349613]
+remove done ip_node: mac_2_1_t3
+
+
+executing: mac_0_2_t4
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t4_retout=[1.89407668]
+remove done ip_node: mac_0_2_t4
+
+
+executing: mac_1_1_t4
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t4_retout=[1.16463163]
+remove done ip_node: mac_1_1_t4
+
+
+executing: mac_2_0_t4
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t4_retout=[0.89215322]
+remove done ip_node: mac_2_0_t4
+
+
+executing: arr_wt_0_0_t5
+using: arr_writer_0_0
+
+executing: mac_0_1_t5
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t5_retout=[1.71434045]
+remove done ip_node: mac_0_1_t5
+
+
+executing: mac_1_0_t5
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t5_retout=[1.54405191]
+remove done ip_node: mac_1_0_t5
+
+
+executing: mac_0_0_t6
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t6_retout=[0.63681171]
+remove done ip_node: mac_0_0_t6
+
+
+------------------------------------------------------------cycle: 9------------------------------------------------------------
+ip_nodes remaining: 303
+
+executing: row_rd_0_t8
+using: row_reader_0
+remove done ip_node: row_rd_0_t8
+
+
+executing: col_rd_0_t8
+using: col_reader_0
+remove done ip_node: col_rd_0_t8
+
+
+executing: row_rd_1_t8
+using: row_reader_1
+remove done ip_node: row_rd_1_t8
+
+
+executing: col_rd_1_t8
+using: col_reader_1
+remove done ip_node: col_rd_1_t8
+
+
+executing: row_rd_2_t8
+using: row_reader_2
+remove done ip_node: row_rd_2_t8
+
+
+executing: col_rd_2_t8
+using: col_reader_2
+remove done ip_node: col_rd_2_t8
+
+
+executing: row_rd_0_t9
+using: a_buf_0
+
+executing: col_rd_0_t9
+using: b_buf_0
+
+executing: row_rd_1_t9
+using: a_buf_1
+
+executing: col_rd_1_t9
+using: b_buf_1
+
+executing: row_rd_2_t9
+using: a_buf_2
+
+executing: col_rd_2_t9
+using: b_buf_2
+
+executing: mac_2_2_t3
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t3_retout=[1.18295183]
+remove done ip_node: mac_2_2_t3
+
+
+executing: mac_1_2_t4
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t4_retout=[1.74455985]
+remove done ip_node: mac_1_2_t4
+
+
+executing: mac_2_1_t4
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t4_retout=[0.71657319]
+remove done ip_node: mac_2_1_t4
+
+
+executing: arr_wt_0_0_t5
+using: ret_buf_0_0
+generated output edge (ret matrix): arr_wt_0_0_t5_retout=[1.7016198]
+remove done ip_node: arr_wt_0_0_t5
+
+
+executing: arr_wt_0_1_t5
+using: arr_writer_0_1
+
+executing: mac_0_2_t5
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t5_retout=[2.53501117]
+remove done ip_node: mac_0_2_t5
+
+
+executing: arr_wt_1_0_t5
+using: arr_writer_1_0
+
+executing: mac_1_1_t5
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t5_retout=[1.65511162]
+remove done ip_node: mac_1_1_t5
+
+
+executing: mac_2_0_t5
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t5_retout=[1.29309377]
+remove done ip_node: mac_2_0_t5
+
+
+executing: mac_0_1_t6
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t6_retout=[0.45837367]
+remove done ip_node: mac_0_1_t6
+
+
+executing: mac_1_0_t6
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t6_retout=[0.42681052]
+remove done ip_node: mac_1_0_t6
+
+
+executing: mac_0_0_t7
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t7_retout=[0.8923972]
+remove done ip_node: mac_0_0_t7
+
+
+------------------------------------------------------------cycle: 10------------------------------------------------------------
+ip_nodes remaining: 287
+
+executing: row_rd_0_t9
+using: row_reader_0
+remove done ip_node: row_rd_0_t9
+
+
+executing: col_rd_0_t9
+using: col_reader_0
+remove done ip_node: col_rd_0_t9
+
+
+executing: row_rd_1_t9
+using: row_reader_1
+remove done ip_node: row_rd_1_t9
+
+
+executing: col_rd_1_t9
+using: col_reader_1
+remove done ip_node: col_rd_1_t9
+
+
+executing: row_rd_2_t9
+using: row_reader_2
+remove done ip_node: row_rd_2_t9
+
+
+executing: col_rd_2_t9
+using: col_reader_2
+remove done ip_node: col_rd_2_t9
+
+
+executing: row_rd_0_t10
+using: a_buf_0
+
+executing: col_rd_0_t10
+using: b_buf_0
+
+executing: row_rd_1_t10
+using: a_buf_1
+
+executing: col_rd_1_t10
+using: b_buf_1
+
+executing: row_rd_2_t10
+using: a_buf_2
+
+executing: col_rd_2_t10
+using: b_buf_2
+
+executing: mac_2_2_t4
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t4_retout=[1.36449471]
+remove done ip_node: mac_2_2_t4
+
+
+executing: arr_wt_0_1_t5
+using: ret_buf_0_1
+generated output edge (ret matrix): arr_wt_0_1_t5_retout=[1.71434045]
+remove done ip_node: arr_wt_0_1_t5
+
+
+executing: arr_wt_0_2_t5
+using: arr_writer_0_2
+
+executing: arr_wt_1_0_t5
+using: ret_buf_1_0
+generated output edge (ret matrix): arr_wt_1_0_t5_retout=[1.54405191]
+remove done ip_node: arr_wt_1_0_t5
+
+
+executing: arr_wt_1_1_t5
+using: arr_writer_1_1
+
+executing: mac_1_2_t5
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t5_retout=[2.33095154]
+remove done ip_node: mac_1_2_t5
+
+
+executing: arr_wt_2_0_t5
+using: arr_writer_2_0
+
+executing: mac_2_1_t5
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t5_retout=[1.20775835]
+remove done ip_node: mac_2_1_t5
+
+
+executing: mac_0_2_t6
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t6_retout=[0.19053576]
+remove done ip_node: mac_0_2_t6
+
+
+executing: mac_1_1_t6
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t6_retout=[0.30721594]
+remove done ip_node: mac_1_1_t6
+
+
+executing: mac_2_0_t6
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t6_retout=[0.69218471]
+remove done ip_node: mac_2_0_t6
+
+
+executing: mac_0_1_t7
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t7_retout=[0.73527078]
+remove done ip_node: mac_0_1_t7
+
+
+executing: mac_1_0_t7
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t7_retout=[0.96524931]
+remove done ip_node: mac_1_0_t7
+
+
+executing: mac_0_0_t8
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t8_retout=[0.90215996]
+remove done ip_node: mac_0_0_t8
+
+
+------------------------------------------------------------cycle: 11------------------------------------------------------------
+ip_nodes remaining: 270
+
+executing: row_rd_0_t10
+using: row_reader_0
+remove done ip_node: row_rd_0_t10
+
+
+executing: col_rd_0_t10
+using: col_reader_0
+remove done ip_node: col_rd_0_t10
+
+
+executing: row_rd_1_t10
+using: row_reader_1
+remove done ip_node: row_rd_1_t10
+
+
+executing: col_rd_1_t10
+using: col_reader_1
+remove done ip_node: col_rd_1_t10
+
+
+executing: row_rd_2_t10
+using: row_reader_2
+remove done ip_node: row_rd_2_t10
+
+
+executing: col_rd_2_t10
+using: col_reader_2
+remove done ip_node: col_rd_2_t10
+
+
+executing: row_rd_0_t11
+using: a_buf_0
+
+executing: col_rd_0_t11
+using: b_buf_0
+
+executing: row_rd_1_t11
+using: a_buf_1
+
+executing: col_rd_1_t11
+using: b_buf_1
+
+executing: row_rd_2_t11
+using: a_buf_2
+
+executing: col_rd_2_t11
+using: b_buf_2
+
+executing: arr_wt_0_2_t5
+using: ret_buf_0_2
+generated output edge (ret matrix): arr_wt_0_2_t5_retout=[2.53501117]
+remove done ip_node: arr_wt_0_2_t5
+
+
+executing: arr_wt_1_1_t5
+using: ret_buf_1_1
+generated output edge (ret matrix): arr_wt_1_1_t5_retout=[1.65511162]
+remove done ip_node: arr_wt_1_1_t5
+
+
+executing: arr_wt_1_2_t5
+using: arr_writer_1_2
+
+executing: arr_wt_2_0_t5
+using: ret_buf_2_0
+generated output edge (ret matrix): arr_wt_2_0_t5_retout=[1.29309377]
+remove done ip_node: arr_wt_2_0_t5
+
+
+executing: arr_wt_2_1_t5
+using: arr_writer_2_1
+
+executing: mac_2_2_t5
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t5_retout=[1.95172949]
+remove done ip_node: mac_2_2_t5
+
+
+executing: mac_1_2_t6
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t6_retout=[0.12770284]
+remove done ip_node: mac_1_2_t6
+
+
+executing: mac_2_1_t6
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t6_retout=[0.49823086]
+remove done ip_node: mac_2_1_t6
+
+
+executing: mac_0_2_t7
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t7_retout=[0.39066032]
+remove done ip_node: mac_0_2_t7
+
+
+executing: mac_1_1_t7
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t7_retout=[0.89055165]
+remove done ip_node: mac_1_1_t7
+
+
+executing: mac_2_0_t7
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t7_retout=[0.91555456]
+remove done ip_node: mac_2_0_t7
+
+
+executing: mac_0_1_t8
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t8_retout=[1.16427627]
+remove done ip_node: mac_0_1_t8
+
+
+executing: mac_1_0_t8
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t8_retout=[0.97172979]
+remove done ip_node: mac_1_0_t8
+
+
+executing: mac_0_0_t9
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t9_retout=[1.11974438]
+remove done ip_node: mac_0_0_t9
+
+
+------------------------------------------------------------cycle: 12------------------------------------------------------------
+ip_nodes remaining: 252
+
+executing: row_rd_0_t11
+using: row_reader_0
+remove done ip_node: row_rd_0_t11
+
+
+executing: col_rd_0_t11
+using: col_reader_0
+remove done ip_node: col_rd_0_t11
+
+
+executing: row_rd_1_t11
+using: row_reader_1
+remove done ip_node: row_rd_1_t11
+
+
+executing: col_rd_1_t11
+using: col_reader_1
+remove done ip_node: col_rd_1_t11
+
+
+executing: row_rd_2_t11
+using: row_reader_2
+remove done ip_node: row_rd_2_t11
+
+
+executing: col_rd_2_t11
+using: col_reader_2
+remove done ip_node: col_rd_2_t11
+
+
+executing: row_rd_0_t12
+using: a_buf_0
+
+executing: col_rd_0_t12
+using: b_buf_0
+
+executing: row_rd_1_t12
+using: a_buf_1
+
+executing: col_rd_1_t12
+using: b_buf_1
+
+executing: row_rd_2_t12
+using: a_buf_2
+
+executing: col_rd_2_t12
+using: b_buf_2
+
+executing: arr_wt_1_2_t5
+using: ret_buf_1_2
+generated output edge (ret matrix): arr_wt_1_2_t5_retout=[2.33095154]
+remove done ip_node: arr_wt_1_2_t5
+
+
+executing: arr_wt_2_1_t5
+using: ret_buf_2_1
+generated output edge (ret matrix): arr_wt_2_1_t5_retout=[1.20775835]
+remove done ip_node: arr_wt_2_1_t5
+
+
+executing: arr_wt_2_2_t5
+using: arr_writer_2_2
+
+executing: mac_2_2_t6
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t6_retout=[0.20710351]
+remove done ip_node: mac_2_2_t6
+
+
+executing: mac_1_2_t7
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t7_retout=[0.54930279]
+remove done ip_node: mac_1_2_t7
+
+
+executing: mac_2_1_t7
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t7_retout=[0.74022608]
+remove done ip_node: mac_2_1_t7
+
+
+executing: mac_0_2_t8
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t8_retout=[0.93533786]
+remove done ip_node: mac_0_2_t8
+
+
+executing: mac_1_1_t8
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t8_retout=[1.17532371]
+remove done ip_node: mac_1_1_t8
+
+
+executing: mac_2_0_t8
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t8_retout=[0.92154488]
+remove done ip_node: mac_2_0_t8
+
+
+executing: mac_0_1_t9
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t9_retout=[1.35851293]
+remove done ip_node: mac_0_1_t9
+
+
+executing: mac_1_0_t9
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t9_retout=[1.2831565]
+remove done ip_node: mac_1_0_t9
+
+
+executing: mac_0_0_t10
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t10_retout=[1.28865628]
+remove done ip_node: mac_0_0_t10
+
+
+------------------------------------------------------------cycle: 13------------------------------------------------------------
+ip_nodes remaining: 235
+
+executing: row_rd_0_t12
+using: row_reader_0
+remove done ip_node: row_rd_0_t12
+
+
+executing: col_rd_0_t12
+using: col_reader_0
+remove done ip_node: col_rd_0_t12
+
+
+executing: row_rd_1_t12
+using: row_reader_1
+remove done ip_node: row_rd_1_t12
+
+
+executing: col_rd_1_t12
+using: col_reader_1
+remove done ip_node: col_rd_1_t12
+
+
+executing: row_rd_2_t12
+using: row_reader_2
+remove done ip_node: row_rd_2_t12
+
+
+executing: col_rd_2_t12
+using: col_reader_2
+remove done ip_node: col_rd_2_t12
+
+
+executing: row_rd_0_t13
+using: a_buf_0
+
+executing: col_rd_0_t13
+using: b_buf_0
+
+executing: row_rd_1_t13
+using: a_buf_1
+
+executing: col_rd_1_t13
+using: b_buf_1
+
+executing: row_rd_2_t13
+using: a_buf_2
+
+executing: col_rd_2_t13
+using: b_buf_2
+
+executing: arr_wt_2_2_t5
+using: ret_buf_2_2
+generated output edge (ret matrix): arr_wt_2_2_t5_retout=[1.95172949]
+remove done ip_node: arr_wt_2_2_t5
+
+
+executing: mac_2_2_t7
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t7_retout=[0.38200308]
+remove done ip_node: mac_2_2_t7
+
+
+executing: mac_1_2_t8
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t8_retout=[0.91085748]
+remove done ip_node: mac_1_2_t8
+
+
+executing: mac_2_1_t8
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t8_retout=[1.00345876]
+remove done ip_node: mac_2_1_t8
+
+
+executing: mac_0_2_t9
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t9_retout=[1.40485656]
+remove done ip_node: mac_0_2_t9
+
+
+executing: mac_1_1_t9
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t9_retout=[1.45333296]
+remove done ip_node: mac_1_1_t9
+
+
+executing: mac_2_0_t9
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t9_retout=[0.97323878]
+remove done ip_node: mac_2_0_t9
+
+
+executing: mac_0_1_t10
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t10_retout=[1.36049388]
+remove done ip_node: mac_0_1_t10
+
+
+executing: mac_1_0_t10
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t10_retout=[1.37309154]
+remove done ip_node: mac_1_0_t10
+
+
+executing: mac_0_0_t11
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t11_retout=[1.8585624]
+remove done ip_node: mac_0_0_t11
+
+
+------------------------------------------------------------cycle: 14------------------------------------------------------------
+ip_nodes remaining: 219
+
+executing: row_rd_0_t13
+using: row_reader_0
+remove done ip_node: row_rd_0_t13
+
+
+executing: col_rd_0_t13
+using: col_reader_0
+remove done ip_node: col_rd_0_t13
+
+
+executing: row_rd_1_t13
+using: row_reader_1
+remove done ip_node: row_rd_1_t13
+
+
+executing: col_rd_1_t13
+using: col_reader_1
+remove done ip_node: col_rd_1_t13
+
+
+executing: row_rd_2_t13
+using: row_reader_2
+remove done ip_node: row_rd_2_t13
+
+
+executing: col_rd_2_t13
+using: col_reader_2
+remove done ip_node: col_rd_2_t13
+
+
+executing: row_rd_0_t14
+using: a_buf_0
+
+executing: col_rd_0_t14
+using: b_buf_0
+
+executing: row_rd_1_t14
+using: a_buf_1
+
+executing: col_rd_1_t14
+using: b_buf_1
+
+executing: row_rd_2_t14
+using: a_buf_2
+
+executing: col_rd_2_t14
+using: b_buf_2
+
+executing: mac_2_2_t8
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t8_retout=[0.71621077]
+remove done ip_node: mac_2_2_t8
+
+
+executing: mac_1_2_t9
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t9_retout=[1.58287554]
+remove done ip_node: mac_1_2_t9
+
+
+executing: mac_2_1_t9
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t9_retout=[1.04960568]
+remove done ip_node: mac_2_1_t9
+
+
+executing: mac_0_2_t10
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t10_retout=[1.52046938]
+remove done ip_node: mac_0_2_t10
+
+
+executing: mac_1_1_t10
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t10_retout=[1.4543877]
+remove done ip_node: mac_1_1_t10
+
+
+executing: mac_2_0_t10
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t10_retout=[1.05701129]
+remove done ip_node: mac_2_0_t10
+
+
+executing: arr_wt_0_0_t11
+using: arr_writer_0_0
+
+executing: mac_0_1_t11
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t11_retout=[1.37990409]
+remove done ip_node: mac_0_1_t11
+
+
+executing: mac_1_0_t11
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t11_retout=[1.8944993]
+remove done ip_node: mac_1_0_t11
+
+
+executing: mac_0_0_t12
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t12_retout=[0.10293168]
+remove done ip_node: mac_0_0_t12
+
+
+------------------------------------------------------------cycle: 15------------------------------------------------------------
+ip_nodes remaining: 204
+
+executing: row_rd_0_t14
+using: row_reader_0
+remove done ip_node: row_rd_0_t14
+
+
+executing: col_rd_0_t14
+using: col_reader_0
+remove done ip_node: col_rd_0_t14
+
+
+executing: row_rd_1_t14
+using: row_reader_1
+remove done ip_node: row_rd_1_t14
+
+
+executing: col_rd_1_t14
+using: col_reader_1
+remove done ip_node: col_rd_1_t14
+
+
+executing: row_rd_2_t14
+using: row_reader_2
+remove done ip_node: row_rd_2_t14
+
+
+executing: col_rd_2_t14
+using: col_reader_2
+remove done ip_node: col_rd_2_t14
+
+
+executing: row_rd_0_t15
+using: a_buf_0
+
+executing: col_rd_0_t15
+using: b_buf_0
+
+executing: row_rd_1_t15
+using: a_buf_1
+
+executing: col_rd_1_t15
+using: b_buf_1
+
+executing: row_rd_2_t15
+using: a_buf_2
+
+executing: col_rd_2_t15
+using: b_buf_2
+
+executing: mac_2_2_t9
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t9_retout=[0.82775944]
+remove done ip_node: mac_2_2_t9
+
+
+executing: mac_1_2_t10
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t10_retout=[1.64443216]
+remove done ip_node: mac_1_2_t10
+
+
+executing: mac_2_1_t10
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t10_retout=[1.05058814]
+remove done ip_node: mac_2_1_t10
+
+
+executing: arr_wt_0_0_t11
+using: ret_buf_0_0
+generated output edge (ret matrix): arr_wt_0_0_t11_retout=[1.8585624]
+remove done ip_node: arr_wt_0_0_t11
+
+
+executing: arr_wt_0_1_t11
+using: arr_writer_0_1
+
+executing: mac_0_2_t11
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t11_retout=[1.95742585]
+remove done ip_node: mac_0_2_t11
+
+
+executing: arr_wt_1_0_t11
+using: arr_writer_1_0
+
+executing: mac_1_1_t11
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t11_retout=[1.47214612]
+remove done ip_node: mac_1_1_t11
+
+
+executing: mac_2_0_t11
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t11_retout=[1.5791687]
+remove done ip_node: mac_2_0_t11
+
+
+executing: mac_0_1_t12
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t12_retout=[0.01794526]
+remove done ip_node: mac_0_1_t12
+
+
+executing: mac_1_0_t12
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t12_retout=[0.19815574]
+remove done ip_node: mac_1_0_t12
+
+
+executing: mac_0_0_t13
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t13_retout=[0.20669277]
+remove done ip_node: mac_0_0_t13
+
+
+------------------------------------------------------------cycle: 16------------------------------------------------------------
+ip_nodes remaining: 188
+
+executing: row_rd_0_t15
+using: row_reader_0
+remove done ip_node: row_rd_0_t15
+
+
+executing: col_rd_0_t15
+using: col_reader_0
+remove done ip_node: col_rd_0_t15
+
+
+executing: row_rd_1_t15
+using: row_reader_1
+remove done ip_node: row_rd_1_t15
+
+
+executing: col_rd_1_t15
+using: col_reader_1
+remove done ip_node: col_rd_1_t15
+
+
+executing: row_rd_2_t15
+using: row_reader_2
+remove done ip_node: row_rd_2_t15
+
+
+executing: col_rd_2_t15
+using: col_reader_2
+remove done ip_node: col_rd_2_t15
+
+
+executing: row_rd_0_t16
+using: a_buf_0
+
+executing: col_rd_0_t16
+using: b_buf_0
+
+executing: row_rd_1_t16
+using: a_buf_1
+
+executing: col_rd_1_t16
+using: b_buf_1
+
+executing: row_rd_2_t16
+using: a_buf_2
+
+executing: col_rd_2_t16
+using: b_buf_2
+
+executing: mac_2_2_t10
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t10_retout=[0.88509807]
+remove done ip_node: mac_2_2_t10
+
+
+executing: arr_wt_0_1_t11
+using: ret_buf_0_1
+generated output edge (ret matrix): arr_wt_0_1_t11_retout=[1.37990409]
+remove done ip_node: arr_wt_0_1_t11
+
+
+executing: arr_wt_0_2_t11
+using: arr_writer_0_2
+
+executing: arr_wt_1_0_t11
+using: ret_buf_1_0
+generated output edge (ret matrix): arr_wt_1_0_t11_retout=[1.8944993]
+remove done ip_node: arr_wt_1_0_t11
+
+
+executing: arr_wt_1_1_t11
+using: arr_writer_1_1
+
+executing: mac_1_2_t11
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t11_retout=[2.04420413]
+remove done ip_node: mac_1_2_t11
+
+
+executing: arr_wt_2_0_t11
+using: arr_writer_2_0
+
+executing: mac_2_1_t11
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t11_retout=[1.0683721]
+remove done ip_node: mac_2_1_t11
+
+
+executing: mac_0_2_t12
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t12_retout=[0.10651947]
+remove done ip_node: mac_0_2_t12
+
+
+executing: mac_1_1_t12
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t12_retout=[0.03454677]
+remove done ip_node: mac_1_1_t12
+
+
+executing: mac_2_0_t12
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t12_retout=[0.00036199]
+remove done ip_node: mac_2_0_t12
+
+
+executing: mac_0_1_t13
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t13_retout=[0.54753059]
+remove done ip_node: mac_0_1_t13
+
+
+executing: mac_1_0_t13
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t13_retout=[0.28178694]
+remove done ip_node: mac_1_0_t13
+
+
+executing: mac_0_0_t14
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t14_retout=[0.23693257]
+remove done ip_node: mac_0_0_t14
+
+
+------------------------------------------------------------cycle: 17------------------------------------------------------------
+ip_nodes remaining: 171
+
+executing: row_rd_0_t16
+using: row_reader_0
+remove done ip_node: row_rd_0_t16
+
+
+executing: col_rd_0_t16
+using: col_reader_0
+remove done ip_node: col_rd_0_t16
+
+
+executing: row_rd_1_t16
+using: row_reader_1
+remove done ip_node: row_rd_1_t16
+
+
+executing: col_rd_1_t16
+using: col_reader_1
+remove done ip_node: col_rd_1_t16
+
+
+executing: row_rd_2_t16
+using: row_reader_2
+remove done ip_node: row_rd_2_t16
+
+
+executing: col_rd_2_t16
+using: col_reader_2
+remove done ip_node: col_rd_2_t16
+
+
+executing: row_rd_0_t17
+using: a_buf_0
+
+executing: col_rd_0_t17
+using: b_buf_0
+
+executing: row_rd_1_t17
+using: a_buf_1
+
+executing: col_rd_1_t17
+using: b_buf_1
+
+executing: row_rd_2_t17
+using: a_buf_2
+
+executing: col_rd_2_t17
+using: b_buf_2
+
+executing: arr_wt_0_2_t11
+using: ret_buf_0_2
+generated output edge (ret matrix): arr_wt_0_2_t11_retout=[1.95742585]
+remove done ip_node: arr_wt_0_2_t11
+
+
+executing: arr_wt_1_1_t11
+using: ret_buf_1_1
+generated output edge (ret matrix): arr_wt_1_1_t11_retout=[1.47214612]
+remove done ip_node: arr_wt_1_1_t11
+
+
+executing: arr_wt_1_2_t11
+using: arr_writer_1_2
+
+executing: arr_wt_2_0_t11
+using: ret_buf_2_0
+generated output edge (ret matrix): arr_wt_2_0_t11_retout=[1.5791687]
+remove done ip_node: arr_wt_2_0_t11
+
+
+executing: arr_wt_2_1_t11
+using: arr_writer_2_1
+
+executing: mac_2_2_t11
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t11_retout=[1.28544481]
+remove done ip_node: mac_2_2_t11
+
+
+executing: mac_1_2_t12
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t12_retout=[0.20506267]
+remove done ip_node: mac_1_2_t12
+
+
+executing: mac_2_1_t12
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t12_retout=[6.31099447e-05]
+remove done ip_node: mac_2_1_t12
+
+
+executing: mac_0_2_t13
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t13_retout=[0.81991059]
+remove done ip_node: mac_0_2_t13
+
+
+executing: mac_1_1_t13
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t13_retout=[0.46139129]
+remove done ip_node: mac_1_1_t13
+
+
+executing: mac_2_0_t13
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t13_retout=[0.00259262]
+remove done ip_node: mac_2_0_t13
+
+
+executing: mac_0_1_t14
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t14_retout=[1.24250728]
+remove done ip_node: mac_0_1_t14
+
+
+executing: mac_1_0_t14
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t14_retout=[0.3139475]
+remove done ip_node: mac_1_0_t14
+
+
+executing: mac_0_0_t15
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t15_retout=[0.47418873]
+remove done ip_node: mac_0_0_t15
+
+
+------------------------------------------------------------cycle: 18------------------------------------------------------------
+ip_nodes remaining: 153
+
+executing: row_rd_0_t17
+using: row_reader_0
+remove done ip_node: row_rd_0_t17
+
+
+executing: col_rd_0_t17
+using: col_reader_0
+remove done ip_node: col_rd_0_t17
+
+
+executing: row_rd_1_t17
+using: row_reader_1
+remove done ip_node: row_rd_1_t17
+
+
+executing: col_rd_1_t17
+using: col_reader_1
+remove done ip_node: col_rd_1_t17
+
+
+executing: row_rd_2_t17
+using: row_reader_2
+remove done ip_node: row_rd_2_t17
+
+
+executing: col_rd_2_t17
+using: col_reader_2
+remove done ip_node: col_rd_2_t17
+
+
+executing: row_rd_0_t18
+using: a_buf_0
+
+executing: col_rd_0_t18
+using: b_buf_0
+
+executing: row_rd_1_t18
+using: a_buf_1
+
+executing: col_rd_1_t18
+using: b_buf_1
+
+executing: row_rd_2_t18
+using: a_buf_2
+
+executing: col_rd_2_t18
+using: b_buf_2
+
+executing: arr_wt_1_2_t11
+using: ret_buf_1_2
+generated output edge (ret matrix): arr_wt_1_2_t11_retout=[2.04420413]
+remove done ip_node: arr_wt_1_2_t11
+
+
+executing: arr_wt_2_1_t11
+using: ret_buf_2_1
+generated output edge (ret matrix): arr_wt_2_1_t11_retout=[1.0683721]
+remove done ip_node: arr_wt_2_1_t11
+
+
+executing: arr_wt_2_2_t11
+using: arr_writer_2_2
+
+executing: mac_2_2_t12
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t12_retout=[0.00037461]
+remove done ip_node: mac_2_2_t12
+
+
+executing: mac_1_2_t13
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t13_retout=[0.78005422]
+remove done ip_node: mac_1_2_t13
+
+
+executing: mac_2_1_t13
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t13_retout=[0.01144801]
+remove done ip_node: mac_2_1_t13
+
+
+executing: mac_0_2_t14
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t14_retout=[1.37732651]
+remove done ip_node: mac_0_2_t14
+
+
+executing: mac_1_1_t14
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t14_retout=[1.20051135]
+remove done ip_node: mac_1_1_t14
+
+
+executing: mac_2_0_t14
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t14_retout=[0.02868339]
+remove done ip_node: mac_2_0_t14
+
+
+executing: mac_0_1_t15
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t15_retout=[1.37634544]
+remove done ip_node: mac_0_1_t15
+
+
+executing: mac_1_0_t15
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t15_retout=[0.69164532]
+remove done ip_node: mac_1_0_t15
+
+
+executing: mac_0_0_t16
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t16_retout=[0.6587091]
+remove done ip_node: mac_0_0_t16
+
+
+------------------------------------------------------------cycle: 19------------------------------------------------------------
+ip_nodes remaining: 136
+
+executing: row_rd_0_t18
+using: row_reader_0
+remove done ip_node: row_rd_0_t18
+
+
+executing: col_rd_0_t18
+using: col_reader_0
+remove done ip_node: col_rd_0_t18
+
+
+executing: row_rd_1_t18
+using: row_reader_1
+remove done ip_node: row_rd_1_t18
+
+
+executing: col_rd_1_t18
+using: col_reader_1
+remove done ip_node: col_rd_1_t18
+
+
+executing: row_rd_2_t18
+using: row_reader_2
+remove done ip_node: row_rd_2_t18
+
+
+executing: col_rd_2_t18
+using: col_reader_2
+remove done ip_node: col_rd_2_t18
+
+
+executing: row_rd_0_t19
+using: a_buf_0
+
+executing: col_rd_0_t19
+using: b_buf_0
+
+executing: row_rd_1_t19
+using: a_buf_1
+
+executing: col_rd_1_t19
+using: b_buf_1
+
+executing: row_rd_2_t19
+using: a_buf_2
+
+executing: col_rd_2_t19
+using: b_buf_2
+
+executing: arr_wt_2_2_t11
+using: ret_buf_2_2
+generated output edge (ret matrix): arr_wt_2_2_t11_retout=[1.28544481]
+remove done ip_node: arr_wt_2_2_t11
+
+
+executing: mac_2_2_t13
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t13_retout=[0.01571093]
+remove done ip_node: mac_2_2_t13
+
+
+executing: mac_1_2_t14
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t14_retout=[1.37287597]
+remove done ip_node: mac_1_2_t14
+
+
+executing: mac_2_1_t14
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t14_retout=[0.61107086]
+remove done ip_node: mac_2_1_t14
+
+
+executing: mac_0_2_t15
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t15_retout=[1.54761879]
+remove done ip_node: mac_0_2_t15
+
+
+executing: mac_1_1_t15
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t15_retout=[1.41357381]
+remove done ip_node: mac_1_1_t15
+
+
+executing: mac_2_0_t15
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t15_retout=[0.49472971]
+remove done ip_node: mac_2_0_t15
+
+
+executing: mac_0_1_t16
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t16_retout=[1.4983207]
+remove done ip_node: mac_0_1_t16
+
+
+executing: mac_1_0_t16
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t16_retout=[1.06237786]
+remove done ip_node: mac_1_0_t16
+
+
+executing: mac_0_0_t17
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t17_retout=[0.81181034]
+remove done ip_node: mac_0_0_t17
+
+
+------------------------------------------------------------cycle: 20------------------------------------------------------------
+ip_nodes remaining: 120
+
+executing: row_rd_0_t19
+using: row_reader_0
+remove done ip_node: row_rd_0_t19
+
+
+executing: col_rd_0_t19
+using: col_reader_0
+remove done ip_node: col_rd_0_t19
+
+
+executing: row_rd_1_t19
+using: row_reader_1
+remove done ip_node: row_rd_1_t19
+
+
+executing: col_rd_1_t19
+using: col_reader_1
+remove done ip_node: col_rd_1_t19
+
+
+executing: row_rd_2_t19
+using: row_reader_2
+remove done ip_node: row_rd_2_t19
+
+
+executing: col_rd_2_t19
+using: col_reader_2
+remove done ip_node: col_rd_2_t19
+
+
+executing: row_rd_0_t20
+using: a_buf_0
+
+executing: col_rd_0_t20
+using: b_buf_0
+
+executing: row_rd_1_t20
+using: a_buf_1
+
+executing: col_rd_1_t20
+using: b_buf_1
+
+executing: row_rd_2_t20
+using: a_buf_2
+
+executing: col_rd_2_t20
+using: b_buf_2
+
+executing: mac_2_2_t14
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t14_retout=[0.49664695]
+remove done ip_node: mac_2_2_t14
+
+
+executing: mac_1_2_t15
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t15_retout=[1.64397123]
+remove done ip_node: mac_1_2_t15
+
+
+executing: mac_2_1_t15
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t15_retout=[0.87397145]
+remove done ip_node: mac_2_1_t15
+
+
+executing: mac_0_2_t16
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t16_retout=[1.81894861]
+remove done ip_node: mac_0_2_t16
+
+
+executing: mac_1_1_t16
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t16_retout=[1.65864266]
+remove done ip_node: mac_1_1_t16
+
+
+executing: mac_2_0_t16
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t16_retout=[1.02877896]
+remove done ip_node: mac_2_0_t16
+
+
+executing: arr_wt_0_0_t17
+using: arr_writer_0_0
+
+executing: mac_0_1_t17
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t17_retout=[1.68588231]
+remove done ip_node: mac_0_1_t17
+
+
+executing: mac_1_0_t17
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t17_retout=[1.56179998]
+remove done ip_node: mac_1_0_t17
+
+
+executing: mac_0_0_t18
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t18_retout=[0.11182256]
+remove done ip_node: mac_0_0_t18
+
+
+------------------------------------------------------------cycle: 21------------------------------------------------------------
+ip_nodes remaining: 105
+
+executing: row_rd_0_t20
+using: row_reader_0
+remove done ip_node: row_rd_0_t20
+
+
+executing: col_rd_0_t20
+using: col_reader_0
+remove done ip_node: col_rd_0_t20
+
+
+executing: row_rd_1_t20
+using: row_reader_1
+remove done ip_node: row_rd_1_t20
+
+
+executing: col_rd_1_t20
+using: col_reader_1
+remove done ip_node: col_rd_1_t20
+
+
+executing: row_rd_2_t20
+using: row_reader_2
+remove done ip_node: row_rd_2_t20
+
+
+executing: col_rd_2_t20
+using: col_reader_2
+remove done ip_node: col_rd_2_t20
+
+
+executing: row_rd_0_t21
+using: a_buf_0
+
+executing: col_rd_0_t21
+using: b_buf_0
+
+executing: row_rd_1_t21
+using: a_buf_1
+
+executing: col_rd_1_t21
+using: b_buf_1
+
+executing: row_rd_2_t21
+using: a_buf_2
+
+executing: col_rd_2_t21
+using: b_buf_2
+
+executing: mac_2_2_t15
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t15_retout=[0.83115499]
+remove done ip_node: mac_2_2_t15
+
+
+executing: mac_1_2_t16
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t16_retout=[2.18911859]
+remove done ip_node: mac_1_2_t16
+
+
+executing: mac_2_1_t16
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t16_retout=[1.22699909]
+remove done ip_node: mac_2_1_t16
+
+
+executing: arr_wt_0_0_t17
+using: ret_buf_0_0
+generated output edge (ret matrix): arr_wt_0_0_t17_retout=[0.81181034]
+remove done ip_node: arr_wt_0_0_t17
+
+
+executing: arr_wt_0_1_t17
+using: arr_writer_0_1
+
+executing: mac_0_2_t17
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t17_retout=[2.04318727]
+remove done ip_node: mac_0_2_t17
+
+
+executing: arr_wt_1_0_t17
+using: arr_writer_1_0
+
+executing: mac_1_1_t17
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t17_retout=[2.27047585]
+remove done ip_node: mac_1_1_t17
+
+
+executing: mac_2_0_t17
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t17_retout=[1.53591045]
+remove done ip_node: mac_2_0_t17
+
+
+executing: mac_0_1_t18
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t18_retout=[0.08048928]
+remove done ip_node: mac_0_1_t18
+
+
+executing: mac_1_0_t18
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t18_retout=[0.21527175]
+remove done ip_node: mac_1_0_t18
+
+
+executing: mac_0_0_t19
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t19_retout=[0.91863283]
+remove done ip_node: mac_0_0_t19
+
+
+------------------------------------------------------------cycle: 22------------------------------------------------------------
+ip_nodes remaining: 89
+
+executing: row_rd_0_t21
+using: row_reader_0
+remove done ip_node: row_rd_0_t21
+
+
+executing: col_rd_0_t21
+using: col_reader_0
+remove done ip_node: col_rd_0_t21
+
+
+executing: row_rd_1_t21
+using: row_reader_1
+remove done ip_node: row_rd_1_t21
+
+
+executing: col_rd_1_t21
+using: col_reader_1
+remove done ip_node: col_rd_1_t21
+
+
+executing: row_rd_2_t21
+using: row_reader_2
+remove done ip_node: row_rd_2_t21
+
+
+executing: col_rd_2_t21
+using: col_reader_2
+remove done ip_node: col_rd_2_t21
+
+
+executing: row_rd_0_t22
+using: a_buf_0
+
+executing: col_rd_0_t22
+using: b_buf_0
+
+executing: row_rd_1_t22
+using: a_buf_1
+
+executing: col_rd_1_t22
+using: b_buf_1
+
+executing: row_rd_2_t22
+using: a_buf_2
+
+executing: col_rd_2_t22
+using: b_buf_2
+
+executing: mac_2_2_t16
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t16_retout=[1.61645301]
+remove done ip_node: mac_2_2_t16
+
+
+executing: arr_wt_0_1_t17
+using: ret_buf_0_1
+generated output edge (ret matrix): arr_wt_0_1_t17_retout=[1.68588231]
+remove done ip_node: arr_wt_0_1_t17
+
+
+executing: arr_wt_0_2_t17
+using: arr_writer_0_2
+
+executing: arr_wt_1_0_t17
+using: ret_buf_1_0
+generated output edge (ret matrix): arr_wt_1_0_t17_retout=[1.56179998]
+remove done ip_node: arr_wt_1_0_t17
+
+
+executing: arr_wt_1_1_t17
+using: arr_writer_1_1
+
+executing: mac_1_2_t17
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t17_retout=[2.92059369]
+remove done ip_node: mac_1_2_t17
+
+
+executing: arr_wt_2_0_t17
+using: arr_writer_2_0
+
+executing: mac_2_1_t17
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t17_retout=[1.84827689]
+remove done ip_node: mac_2_1_t17
+
+
+executing: mac_0_2_t18
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t18_retout=[0.03345761]
+remove done ip_node: mac_0_2_t18
+
+
+executing: mac_1_1_t18
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t18_retout=[0.15495145]
+remove done ip_node: mac_1_1_t18
+
+
+executing: mac_2_0_t18
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t18_retout=[0.00039326]
+remove done ip_node: mac_2_0_t18
+
+
+executing: mac_0_1_t19
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t19_retout=[0.95457422]
+remove done ip_node: mac_0_1_t19
+
+
+executing: mac_1_0_t19
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t19_retout=[0.86555891]
+remove done ip_node: mac_1_0_t19
+
+
+executing: mac_0_0_t20
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t20_retout=[0.93135263]
+remove done ip_node: mac_0_0_t20
+
+
+------------------------------------------------------------cycle: 23------------------------------------------------------------
+ip_nodes remaining: 72
+
+executing: row_rd_0_t22
+using: row_reader_0
+remove done ip_node: row_rd_0_t22
+
+
+executing: col_rd_0_t22
+using: col_reader_0
+remove done ip_node: col_rd_0_t22
+
+
+executing: row_rd_1_t22
+using: row_reader_1
+remove done ip_node: row_rd_1_t22
+
+
+executing: col_rd_1_t22
+using: col_reader_1
+remove done ip_node: col_rd_1_t22
+
+
+executing: row_rd_2_t22
+using: row_reader_2
+remove done ip_node: row_rd_2_t22
+
+
+executing: col_rd_2_t22
+using: col_reader_2
+remove done ip_node: col_rd_2_t22
+
+
+executing: row_rd_0_t23
+using: a_buf_0
+
+executing: col_rd_0_t23
+using: b_buf_0
+
+executing: row_rd_1_t23
+using: a_buf_1
+
+executing: col_rd_1_t23
+using: b_buf_1
+
+executing: row_rd_2_t23
+using: a_buf_2
+
+executing: col_rd_2_t23
+using: b_buf_2
+
+executing: arr_wt_0_2_t17
+using: ret_buf_0_2
+generated output edge (ret matrix): arr_wt_0_2_t17_retout=[2.04318727]
+remove done ip_node: arr_wt_0_2_t17
+
+
+executing: arr_wt_1_1_t17
+using: ret_buf_1_1
+generated output edge (ret matrix): arr_wt_1_1_t17_retout=[2.27047585]
+remove done ip_node: arr_wt_1_1_t17
+
+
+executing: arr_wt_1_2_t17
+using: arr_writer_1_2
+
+executing: arr_wt_2_0_t17
+using: ret_buf_2_0
+generated output edge (ret matrix): arr_wt_2_0_t17_retout=[1.53591045]
+remove done ip_node: arr_wt_2_0_t17
+
+
+executing: arr_wt_2_1_t17
+using: arr_writer_2_1
+
+executing: mac_2_2_t17
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t17_retout=[2.35921959]
+remove done ip_node: mac_2_2_t17
+
+
+executing: mac_1_2_t18
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t18_retout=[0.06440988]
+remove done ip_node: mac_1_2_t18
+
+
+executing: mac_2_1_t18
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t18_retout=[0.00028306]
+remove done ip_node: mac_2_1_t18
+
+
+executing: mac_0_2_t19
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t19_retout=[0.6651936]
+remove done ip_node: mac_0_2_t19
+
+
+executing: mac_1_1_t19
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t19_retout=[0.85946184]
+remove done ip_node: mac_1_1_t19
+
+
+executing: mac_2_0_t19
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t19_retout=[0.01773788]
+remove done ip_node: mac_2_0_t19
+
+
+executing: mac_0_1_t20
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t20_retout=[1.51352133]
+remove done ip_node: mac_0_1_t20
+
+
+executing: mac_1_0_t20
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t20_retout=[0.87908665]
+remove done ip_node: mac_1_0_t20
+
+
+executing: mac_0_0_t21
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t21_retout=[1.06981897]
+remove done ip_node: mac_0_0_t21
+
+
+------------------------------------------------------------cycle: 24------------------------------------------------------------
+ip_nodes remaining: 54
+
+executing: row_rd_0_t23
+using: row_reader_0
+remove done ip_node: row_rd_0_t23
+
+
+executing: col_rd_0_t23
+using: col_reader_0
+remove done ip_node: col_rd_0_t23
+
+
+executing: row_rd_1_t23
+using: row_reader_1
+remove done ip_node: row_rd_1_t23
+
+
+executing: col_rd_1_t23
+using: col_reader_1
+remove done ip_node: col_rd_1_t23
+
+
+executing: row_rd_2_t23
+using: row_reader_2
+remove done ip_node: row_rd_2_t23
+
+
+executing: col_rd_2_t23
+using: col_reader_2
+remove done ip_node: col_rd_2_t23
+
+
+executing: arr_wt_1_2_t17
+using: ret_buf_1_2
+generated output edge (ret matrix): arr_wt_1_2_t17_retout=[2.92059369]
+remove done ip_node: arr_wt_1_2_t17
+
+
+executing: arr_wt_2_1_t17
+using: ret_buf_2_1
+generated output edge (ret matrix): arr_wt_2_1_t17_retout=[1.84827689]
+remove done ip_node: arr_wt_2_1_t17
+
+
+executing: arr_wt_2_2_t17
+using: arr_writer_2_2
+
+executing: mac_2_2_t18
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t18_retout=[0.00011766]
+remove done ip_node: mac_2_2_t18
+
+
+executing: mac_1_2_t19
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t19_retout=[0.57358759]
+remove done ip_node: mac_1_2_t19
+
+
+executing: mac_2_1_t19
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t19_retout=[0.01907394]
+remove done ip_node: mac_2_1_t19
+
+
+executing: mac_0_2_t20
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t20_retout=[1.37484869]
+remove done ip_node: mac_0_2_t20
+
+
+executing: mac_1_1_t20
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t20_retout=[1.45391203]
+remove done ip_node: mac_1_1_t20
+
+
+executing: mac_2_0_t20
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t20_retout=[0.02871247]
+remove done ip_node: mac_2_0_t20
+
+
+executing: mac_0_1_t21
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t21_retout=[1.63712962]
+remove done ip_node: mac_0_1_t21
+
+
+executing: mac_1_0_t21
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t21_retout=[1.09951689]
+remove done ip_node: mac_1_0_t21
+
+
+executing: mac_0_0_t22
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t22_retout=[1.19502344]
+remove done ip_node: mac_0_0_t22
+
+
+------------------------------------------------------------cycle: 25------------------------------------------------------------
+ip_nodes remaining: 37
+
+executing: arr_wt_2_2_t17
+using: ret_buf_2_2
+generated output edge (ret matrix): arr_wt_2_2_t17_retout=[2.35921959]
+remove done ip_node: arr_wt_2_2_t17
+
+
+executing: mac_2_2_t19
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t19_retout=[0.01369858]
+remove done ip_node: mac_2_2_t19
+
+
+executing: mac_1_2_t20
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t20_retout=[1.3283184]
+remove done ip_node: mac_1_2_t20
+
+
+executing: mac_2_1_t20
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t20_retout=[0.50133107]
+remove done ip_node: mac_2_1_t20
+
+
+executing: mac_0_2_t21
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t21_retout=[1.67364092]
+remove done ip_node: mac_0_2_t21
+
+
+executing: mac_1_1_t21
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t21_retout=[1.65068913]
+remove done ip_node: mac_1_1_t21
+
+
+executing: mac_2_0_t21
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t21_retout=[0.30070426]
+remove done ip_node: mac_2_0_t21
+
+
+executing: mac_0_1_t22
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t22_retout=[1.63859798]
+remove done ip_node: mac_0_1_t22
+
+
+executing: mac_1_0_t22
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t22_retout=[1.35107378]
+remove done ip_node: mac_1_0_t22
+
+
+executing: mac_0_0_t23
+using: mac_inst_0_0
+generated output edge (ret matrix): mac_0_0_t23_retout=[1.39441197]
+remove done ip_node: mac_0_0_t23
+
+
+------------------------------------------------------------cycle: 26------------------------------------------------------------
+ip_nodes remaining: 27
+
+executing: mac_2_2_t20
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t20_retout=[0.6259859]
+remove done ip_node: mac_2_2_t20
+
+
+executing: mac_1_2_t21
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t21_retout=[1.80397801]
+remove done ip_node: mac_1_2_t21
+
+
+executing: mac_2_1_t21
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t21_retout=[0.74413694]
+remove done ip_node: mac_2_1_t21
+
+
+executing: mac_0_2_t22
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t22_retout=[1.75933792]
+remove done ip_node: mac_0_2_t22
+
+
+executing: mac_1_1_t22
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t22_retout=[1.65363933]
+remove done ip_node: mac_1_1_t22
+
+
+executing: mac_2_0_t22
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t22_retout=[0.66307809]
+remove done ip_node: mac_2_0_t22
+
+
+executing: arr_wt_0_0_t23
+using: arr_writer_0_0
+
+executing: mac_0_1_t23
+using: mac_inst_0_1
+generated output edge (ret matrix): mac_0_1_t23_retout=[1.64538888]
+remove done ip_node: mac_0_1_t23
+
+
+executing: mac_1_0_t23
+using: mac_inst_1_0
+generated output edge (ret matrix): mac_1_0_t23_retout=[2.00148681]
+remove done ip_node: mac_1_0_t23
+
+
+------------------------------------------------------------cycle: 27------------------------------------------------------------
+ip_nodes remaining: 19
+
+executing: mac_2_2_t21
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t21_retout=[1.21290858]
+remove done ip_node: mac_2_2_t21
+
+
+executing: mac_1_2_t22
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t22_retout=[1.97615773]
+remove done ip_node: mac_1_2_t22
+
+
+executing: mac_2_1_t22
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t22_retout=[0.74838677]
+remove done ip_node: mac_2_1_t22
+
+
+executing: arr_wt_0_0_t23
+using: ret_buf_0_0
+generated output edge (ret matrix): arr_wt_0_0_t23_retout=[1.39441197]
+remove done ip_node: arr_wt_0_0_t23
+
+
+executing: arr_wt_0_1_t23
+using: arr_writer_0_1
+
+executing: mac_0_2_t23
+using: mac_inst_0_2
+generated output edge (ret matrix): mac_0_2_t23_retout=[1.91221241]
+remove done ip_node: mac_0_2_t23
+
+
+executing: arr_wt_1_0_t23
+using: arr_writer_1_0
+
+executing: mac_1_1_t23
+using: mac_inst_1_1
+generated output edge (ret matrix): mac_1_1_t23_retout=[1.67579149]
+remove done ip_node: mac_1_1_t23
+
+
+executing: mac_2_0_t23
+using: mac_inst_2_0
+generated output edge (ret matrix): mac_2_0_t23_retout=[1.32353127]
+remove done ip_node: mac_2_0_t23
+
+
+------------------------------------------------------------cycle: 28------------------------------------------------------------
+ip_nodes remaining: 12
+
+executing: mac_2_2_t22
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t22_retout=[1.46093765]
+remove done ip_node: mac_2_2_t22
+
+
+executing: arr_wt_0_1_t23
+using: ret_buf_0_1
+generated output edge (ret matrix): arr_wt_0_1_t23_retout=[1.64538888]
+remove done ip_node: arr_wt_0_1_t23
+
+
+executing: arr_wt_0_2_t23
+using: arr_writer_0_2
+
+executing: arr_wt_1_0_t23
+using: ret_buf_1_0
+generated output edge (ret matrix): arr_wt_1_0_t23_retout=[2.00148681]
+remove done ip_node: arr_wt_1_0_t23
+
+
+executing: arr_wt_1_1_t23
+using: arr_writer_1_1
+
+executing: mac_1_2_t23
+using: mac_inst_1_2
+generated output edge (ret matrix): mac_1_2_t23_retout=[2.47484017]
+remove done ip_node: mac_1_2_t23
+
+
+executing: arr_wt_2_0_t23
+using: arr_writer_2_0
+
+executing: mac_2_1_t23
+using: mac_inst_2_1
+generated output edge (ret matrix): mac_2_1_t23_retout=[0.77088088]
+remove done ip_node: mac_2_1_t23
+
+
+------------------------------------------------------------cycle: 29------------------------------------------------------------
+ip_nodes remaining: 7
+
+executing: arr_wt_0_2_t23
+using: ret_buf_0_2
+generated output edge (ret matrix): arr_wt_0_2_t23_retout=[1.91221241]
+remove done ip_node: arr_wt_0_2_t23
+
+
+executing: arr_wt_1_1_t23
+using: ret_buf_1_1
+generated output edge (ret matrix): arr_wt_1_1_t23_retout=[1.67579149]
+remove done ip_node: arr_wt_1_1_t23
+
+
+executing: arr_wt_1_2_t23
+using: arr_writer_1_2
+
+executing: arr_wt_2_0_t23
+using: ret_buf_2_0
+generated output edge (ret matrix): arr_wt_2_0_t23_retout=[1.32353127]
+remove done ip_node: arr_wt_2_0_t23
+
+
+executing: arr_wt_2_1_t23
+using: arr_writer_2_1
+
+executing: mac_2_2_t23
+using: mac_inst_2_2
+generated output edge (ret matrix): mac_2_2_t23_retout=[1.96731805]
+remove done ip_node: mac_2_2_t23
+
+
+------------------------------------------------------------cycle: 30------------------------------------------------------------
+ip_nodes remaining: 3
+
+executing: arr_wt_1_2_t23
+using: ret_buf_1_2
+generated output edge (ret matrix): arr_wt_1_2_t23_retout=[2.47484017]
+remove done ip_node: arr_wt_1_2_t23
+
+
+executing: arr_wt_2_1_t23
+using: ret_buf_2_1
+generated output edge (ret matrix): arr_wt_2_1_t23_retout=[0.77088088]
+remove done ip_node: arr_wt_2_1_t23
+
+
+executing: arr_wt_2_2_t23
+using: arr_writer_2_2
+
+------------------------------------------------------------cycle: 31------------------------------------------------------------
+ip_nodes remaining: 1
+
+executing: arr_wt_2_2_t23
+using: ret_buf_2_2
+generated output edge (ret matrix): arr_wt_2_2_t23_retout=[1.96731805]
+remove done ip_node: arr_wt_2_2_t23
+
+
+------------------------------------------------------------cycle: 32------------------------------------------------------------
+ip_nodes remaining: 0
+
+generated matrix output
+[[1.7016198  1.71434045 2.53501117 1.8585624  1.37990409 1.95742585]
+ [1.54405191 1.65511162 2.33095154 1.8944993  1.47214612 2.04420413]
+ [1.29309377 1.20775835 1.95172949 1.5791687  1.0683721  1.28544481]
+ [0.81181034 1.68588231 2.04318727 1.39441197 1.64538888 1.91221241]
+ [1.56179998 2.27047585 2.92059369 2.00148681 1.67579149 2.47484017]
+ [1.53591045 1.84827689 2.35921959 1.32353127 0.77088088 1.96731805]]
+
+expected matrix output
+[[1.7016198  1.71434045 2.53501117 1.8585624  1.37990409 1.95742585]
+ [1.54405191 1.65511162 2.33095154 1.8944993  1.47214612 2.04420413]
+ [1.29309377 1.20775835 1.95172949 1.5791687  1.0683721  1.28544481]
+ [0.81181034 1.68588231 2.04318727 1.39441197 1.64538888 1.91221241]
+ [1.56179998 2.27047585 2.92059369 2.00148681 1.67579149 2.47484017]
+ [1.53591045 1.84827689 2.35921959 1.32353127 0.77088088 1.96731805]]
+
+Post simulation log ------------------------------------------------------------
+
+busy cycles of mac_inst_0_0: 24
+busy cycles of arr_writer_0_0: 4
+busy cycles of ret_buf_0_0: 4
+busy cycles of mac_inst_0_1: 24
+busy cycles of arr_writer_0_1: 4
+busy cycles of ret_buf_0_1: 4
+busy cycles of mac_inst_0_2: 24
+busy cycles of arr_writer_0_2: 4
+busy cycles of ret_buf_0_2: 4
+busy cycles of mac_inst_1_0: 24
+busy cycles of arr_writer_1_0: 4
+busy cycles of ret_buf_1_0: 4
+busy cycles of mac_inst_1_1: 24
+busy cycles of arr_writer_1_1: 4
+busy cycles of ret_buf_1_1: 4
+busy cycles of mac_inst_1_2: 24
+busy cycles of arr_writer_1_2: 4
+busy cycles of ret_buf_1_2: 4
+busy cycles of mac_inst_2_0: 24
+busy cycles of arr_writer_2_0: 4
+busy cycles of ret_buf_2_0: 4
+busy cycles of mac_inst_2_1: 24
+busy cycles of arr_writer_2_1: 4
+busy cycles of ret_buf_2_1: 4
+busy cycles of mac_inst_2_2: 24
+busy cycles of arr_writer_2_2: 4
+busy cycles of ret_buf_2_2: 4
+busy cycles of a_buf_0: 24
+busy cycles of row_reader_0: 24
+busy cycles of b_buf_0: 24
+busy cycles of col_reader_0: 24
+busy cycles of a_buf_1: 24
+busy cycles of row_reader_1: 24
+busy cycles of b_buf_1: 24
+busy cycles of col_reader_1: 24
+busy cycles of a_buf_2: 24
+busy cycles of row_reader_2: 24
+busy cycles of b_buf_2: 24
+busy cycles of col_reader_2: 24
+energy of mac_inst_0_0: 1.1999999999999998e-08
+energy of arr_writer_0_0: 2e-09
+energy of ret_buf_0_0: 2e-09
+energy of mac_inst_0_1: 1.1999999999999998e-08
+energy of arr_writer_0_1: 2e-09
+energy of ret_buf_0_1: 2e-09
+energy of mac_inst_0_2: 1.1999999999999998e-08
+energy of arr_writer_0_2: 2e-09
+energy of ret_buf_0_2: 2e-09
+energy of mac_inst_1_0: 1.1999999999999998e-08
+energy of arr_writer_1_0: 2e-09
+energy of ret_buf_1_0: 2e-09
+energy of mac_inst_1_1: 1.1999999999999998e-08
+energy of arr_writer_1_1: 2e-09
+energy of ret_buf_1_1: 2e-09
+energy of mac_inst_1_2: 1.1999999999999998e-08
+energy of arr_writer_1_2: 2e-09
+energy of ret_buf_1_2: 2e-09
+energy of mac_inst_2_0: 1.1999999999999998e-08
+energy of arr_writer_2_0: 2e-09
+energy of ret_buf_2_0: 2e-09
+energy of mac_inst_2_1: 1.1999999999999998e-08
+energy of arr_writer_2_1: 2e-09
+energy of ret_buf_2_1: 2e-09
+energy of mac_inst_2_2: 1.1999999999999998e-08
+energy of arr_writer_2_2: 2e-09
+energy of ret_buf_2_2: 2e-09
+energy of a_buf_0: 1.1999999999999998e-08
+energy of row_reader_0: 1.1999999999999998e-08
+energy of b_buf_0: 1.1999999999999998e-08
+energy of col_reader_0: 1.1999999999999998e-08
+energy of a_buf_1: 1.1999999999999998e-08
+energy of row_reader_1: 1.1999999999999998e-08
+energy of b_buf_1: 1.1999999999999998e-08
+energy of col_reader_1: 1.1999999999999998e-08
+energy of a_buf_2: 1.1999999999999998e-08
+energy of row_reader_2: 1.1999999999999998e-08
+energy of b_buf_2: 1.1999999999999998e-08
+energy of col_reader_2: 1.1999999999999998e-08
+Latency(cycles): 32
+Latency(s): 3.2e-08
+Energy(J): 2.880000000000007e-07 2.88e-07

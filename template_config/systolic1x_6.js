@@ -1,0 +1,1 @@
+{"size": 6, "glb_freq": "1000MHz", "tech": "65nm", "pw": "32bit", "bank_vol": "8KB", "mem_freq": "1000MHz", "mac_freq": "1000MHz", "dp_freq": "1000MHz", "prec_a_int": 2, "prec_a_frac": 8, "prec_a_padding": 5, "prec_b_int": 2, "prec_b_frac": 8, "prec_b_padding": 5, "prec_ret_int": 6, "prec_ret_frac": 16, "prec_ret_padding": 9, "burst_len": "1data"}
